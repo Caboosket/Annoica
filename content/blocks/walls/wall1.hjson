@@ -1,0 +1,12 @@
+type: Wall
+name: Azure Wall
+description: Protects structures from incoming damage.
+size: 1
+health: 400
+squareSprite: false
+requirements: [
+  metalic-rod/6
+]
+research: core-bunker
+category: defense
+researchCostMultiplier: 0.05

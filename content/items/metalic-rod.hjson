@@ -1,0 +1,14 @@
+type: item
+name: Azure
+description: T1 item, m.
+color: 544deb
+explosivness: 0
+flammability: 0
+charge: 0
+healthScaling: 0
+lowPriority: true
+frames: 0
+transitionFrames: 0
+frameTime: 5.0
+buildable: true
+hidden: false

@@ -1,0 +1,23 @@
+type: legs
+legCount: 6
+legLength: 12
+legSpeed: 1
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: C.A.pcom
+description: C.A. means Controll Ammender. Defends the MCC core. Able to mines ores.
+health: 500
+armor: 10
+mineFloor: true
+mineWalls: true
+speed: 1
+hitSize: 10.0
+isEnemy: false
+mineSpeed: 7
+mineTier: 3
+buildSpeed: 2
+drag: 0.4
+itemCapacity: 50
+alwaysUnlocked: false

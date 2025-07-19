@@ -1,0 +1,12 @@
+type: duct
+name: Azure Rail
+description: I know. It aint a duct or conveyor.
+requirements: [
+    metalic-rod/1
+]
+category: distribution
+health: 50
+speed: 10
+researchCost: [
+    metalic-rod/10
+]

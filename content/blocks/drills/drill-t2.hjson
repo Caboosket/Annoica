@@ -1,0 +1,29 @@
+type: drill
+name: Better Drill
+description: Better than the base drill.
+requirements: [
+    metalic-rod/24
+    oh-noes-1/10
+]
+research: drill-t1
+category: production
+size: 2
+drillTime: 25
+hardnessDrillMultiplier: 50
+tier: 3
+liquidBoostIntensity: 1.5
+warmupSpeed: 0
+drawMineItem: true
+drillEfect: mine
+drillEfectRnd: -1
+drillEfectChance: 0.02
+rotateSpeed: 2
+updateEffect: pulverizeSmall
+updateEffectChance: 0.02
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+rimRegion: null
+rotatorRegion: null
+topRegion: null
+itemRegion: null

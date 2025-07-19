@@ -1,0 +1,83 @@
+type: legs
+legCount: 6
+legExtension: -15
+legLength: 15
+legSpeed: 1
+legForwardScl: 0.56
+legMoveSpace: 1
+legPairOffset: 2
+legBaseOffset: 10
+groundLayer: 60
+stepShake: 0.3
+mineFloor: false
+mineWalls: false
+legLengthScl: 0.96
+rippleScale: 2
+legSplashDamage: 0
+drownTimeMultiplier: 2
+rotateSpeed: 2.7
+hovering: true
+name: Vega
+description: A specalist of the legged tree. Has misile launchers.
+health: 310
+armor: 3
+speed: 1
+hitSize: 16
+drag: 0.4
+itemCapacity: 50
+weapons: {
+    {
+        x: 5
+        y: 2
+        name: vega-missile-launcher
+        mirror: true
+        reload: 51
+        shootSound: shoot-dull
+        mirror: true
+        alternate: false
+        parts: [
+            {
+            type: RegionPart
+            suffix: -glow
+            blending: additive
+            color: ffffff33
+            outline: false
+            irror: false
+            }
+        ]
+        rotate: true
+        inaccuracy: 5
+        shoot: {
+            shots: 5
+            shotDelay: 6
+        }
+        bullet: {
+            type: MissileBulletType
+            homingPower: 0.09
+            homingDelay: 30
+            weaveScale: 3
+            weaveMag: 3
+            width: 9
+            height: 13
+            speed: 2
+            lifetime: 90
+            damage: 32
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 3
+            collidesTeam: true
+            healPercent: 2
+            trailChance: -1
+            trailLength: 22
+            trailWidth: 2.2
+            trailColor: 69a25e
+            backColor: 69a25e
+            lightColor: 69a25e
+            lightRadius: 40
+            lightOpacity: 0.7
+            hitSound: dullExplosion
+            despawnSound: dullExplosion
+            frontColor: 9be98b
+        }
+    }
+}

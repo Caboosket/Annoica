@@ -1,0 +1,30 @@
+type: drill
+name: Penumatic Drill
+description: Better than better.
+requirements: [
+    metalic-rod/36
+    oh-noes-1/20
+    oh-noes-2/10
+]
+research: drill-t2
+category: production
+size: 3
+drillTime: 25
+hardnessDrillMultiplier: 50
+tier: 4
+liquidBoostIntensity: 1.5
+warmupSpeed: 0
+drawMineItem: true
+drillEfect: mine
+drillEfectRnd: -1
+drillEfectChance: 0.02
+rotateSpeed: 2
+updateEffect: pulverizeSmall
+updateEffectChance: 0.02
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+rimRegion: null
+rotatorRegion: null
+topRegion: null
+itemRegion: null
