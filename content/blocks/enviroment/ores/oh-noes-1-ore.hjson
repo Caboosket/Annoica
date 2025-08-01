@@ -1,3 +1,4 @@
 type: OreBlock
 name: Sulfer
 itemDrop: oh-noes-1
+teir: 3

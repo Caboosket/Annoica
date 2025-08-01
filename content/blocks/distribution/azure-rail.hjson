@@ -1,4 +1,4 @@
-type: duct
+type: Duct
 name: Azure Rail
 description: I know. It aint a duct or conveyor.
 requirements: [

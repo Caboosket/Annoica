@@ -19,12 +19,24 @@ mesh: [
     type: NoiseMesh
     planet: annoica
     divisions: 5
-    seed: 92
+    seed: 94
     radius: 1
     color1: D4806B
     color2: EAB678
     octaves: 3.7
     persistence: 0.6
+  }
+  {
+    //malicite
+    type: NoiseMesh
+    planet: annoica
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: 28785c
+    color2: 54d67d
+    octaves: 5.1
+    persistence: 0.8
   }
 ]
 cloudMesh: [
@@ -38,30 +50,6 @@ cloudMesh: [
    octaves: 3
    persistence: 0.3
    scl: 1
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: annoica
-   speed: 1.01
-   radius: 0.11
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.4
-   scl: 0.9
-   thresh: 0.6
-  }
-  {
-   type: HexSkyMesh
-   planet: annoica
-   speed: 0.891
-   radius: 0.091
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.5
-   scl: 1.1
    thresh: 0.6
   }
 ]
@@ -98,8 +86,8 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: 666359
-iconColor: 666359
+atmosphereColor: ffffff
+iconColor: 544deb
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true

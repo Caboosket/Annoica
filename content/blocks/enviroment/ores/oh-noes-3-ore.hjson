@@ -1,3 +1,4 @@
 type: OreBlock
 name: h
 itemDrop: oh-noes-3
+teir: 5
