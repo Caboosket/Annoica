@@ -3,7 +3,7 @@ name: Rail Junction
 description: Junction for two crossing rails.
 research: duct-router
 requirements: [
-    metal-rod/5
+    metalic-rod/5
 ]
 speed: 10 
 health: 50
