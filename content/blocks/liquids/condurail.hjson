@@ -2,7 +2,7 @@ type: Conduit
 name: Condurail
 description: Transports liquids forward.
 category: liquid
-research: pump
+research: condupump
 requirements: [
   metalic-rod/1
 ]
