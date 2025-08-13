@@ -1,3 +1,7 @@
 type: StaticWall
 name: Sulfer Wall
 description: "Su"
+variants: 3
+attributes: {
+  sulfer-wall: 1
+}

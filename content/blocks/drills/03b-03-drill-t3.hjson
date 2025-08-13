@@ -1,18 +1,19 @@
 type: drill
-name: Better Drill
-description: Better than the base drill.
+name: Penumatic Drill
+description: Better than better.
 requirements: [
-    metalic-rod/24
-    oh-noes-1/10
+    metalic-rod/36
+    sulfer/20
+    malicite/10
 ]
-research: drill-t1
+research: 03b-02-drill-t2
 category: production
-size: 2
+size: 3
 drillTime: 25
 hardnessDrillMultiplier: 50
-tier: 3
+tier: 4
 liquidBoostIntensity: 1.5
-warmupSpeed: 0
+warmupSpeed: 1
 drawMineItem: true
 drillEfect: mine
 drillEfectRnd: -1

@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Aqueduct Junction
+description: Used for crossing two aqueducts.
+solid: false
+category: liquid
+squareSprite: false
+research: 04b-01-pipe-t1
+requirements: [
+  metalic-rod/8
+]
+researchCostMultiplier: 0.5

@@ -4,13 +4,13 @@ description: The Base Drill, gonna need it alot eh?
 requirements: [
     metalic-rod/12
 ]
-research: core-bunker
+research: 01b-01-core-bunker
 category: production
-drillTime: 100
+drillTime: 50
 hardnessDrillMultiplier: 50
 tier: 2
 liquidBoostIntensity: 1.5
-warmupSpeed: 0
+warmupSpeed: 5
 drawMineItem: true
 drillEfect: mine
 drillEfectRnd: -1

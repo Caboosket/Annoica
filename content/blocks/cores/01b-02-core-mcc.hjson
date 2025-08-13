@@ -3,15 +3,15 @@ name: Core: MCC
 description: Core of the base. Armored and stores items.
 requirements: [
   metalic-rod/2400
-  oh-noes-1/1600
-  oh-noes-2/800
+  sulfer/1600
+  malicite/800
   oh-noes-3/400
 ]
 isFirstTier: false
 size: 4
 squareSprite: true
 alwaysUnlocked: false
-unitType: capcom
+unitType: 01u-02-capcom
 health: 2000
 itemCapacity: 2400
 unitCapModifier: 25

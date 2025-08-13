@@ -6,7 +6,7 @@ requirements: [
 ]
 category: turret
 research: core-bunker
-range: 50.0
+range: 55
 placeOverlapMargin: 56
 rotateSpeed: 5
 fogRadiusMultiplier: 1
@@ -33,10 +33,10 @@ ammoTypes: {
         lifetime: 30
         pierce: false
         damage: 10
-        weaveScale: 5
-        weaveMag: 5
+        weaveScale: 0
+        weaveMag: 0
     }
-    oh-noes-1: {
+    sulfer: {
         frontColor: ffffff
         backColor: D4806B
         trailColor: D4806B
@@ -49,8 +49,8 @@ ammoTypes: {
         lifetime: 30
         pierce: true
         damage: 20
-        weaveScale: 5
-        weaveMag: 5
+        weaveScale: 0
+        weaveMag: 0
     }
 }
 reload: 50.0

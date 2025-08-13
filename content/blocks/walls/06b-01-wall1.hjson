@@ -7,6 +7,6 @@ squareSprite: false
 requirements: [
   metalic-rod/6
 ]
-research: core-bunker
+research: 05b-01-quatro
 category: defense
 researchCostMultiplier: 0.05

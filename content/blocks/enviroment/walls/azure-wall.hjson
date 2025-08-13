@@ -1,3 +1,7 @@
 type: StaticWall
 name: Azure Wall
 description: "Az"
+variants: 4
+attributes: {
+  azure-wall: 1
+}

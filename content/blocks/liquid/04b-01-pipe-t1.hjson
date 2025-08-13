@@ -2,12 +2,9 @@ type: Conduit
 name: Condurail
 description: Transports liquids forward.
 category: liquid
-research: condupump
 requirements: [
   metalic-rod/1
 ]
 health: 35
 leaks: false
-junctionReplacement: condurail-junction
-bridgeReplacement: overhead-condrail
 underBullets: true
