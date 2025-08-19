@@ -1,5 +1,5 @@
-name: "annoical"
-displayName: "Annoical"
+name: "annoica"
+displayName: "Annoica"
 author: "[orange]Caboosket"
 description: '''
 anotha planet mod
@@ -14,4 +14,6 @@ subtitle: "planetal"
 version: "0.3 Alpha"
 minGameVersion: "146"
 dependencies: []
+hideBrowser: false
+repo: "Caboosket/Annoica"
 hidden: false
