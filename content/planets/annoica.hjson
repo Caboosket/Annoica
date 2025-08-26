@@ -15,14 +15,14 @@ mesh: [
     persistence: 1.1
   }
   {
-    //sulfer
+    //menuinal
     type: NoiseMesh
     planet: annoica
     divisions: 5
     seed: 94
     radius: 1
-    color1: D4806B
-    color2: EAB678
+    color1: cbd97f
+    color2: edf3a9
     octaves: 3.7
     persistence: 0.6
   }
