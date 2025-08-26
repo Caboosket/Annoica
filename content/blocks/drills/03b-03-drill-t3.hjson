@@ -1,0 +1,31 @@
+type: drill
+name: Penumatic Drill
+description: Better than better.
+requirements: [
+    i-01-azure/36
+    i-03-sulfer/20
+    i-04-malicite/10
+]
+research: 03b-02-drill-t2
+category: production
+size: 3
+drillTime: 25
+hardnessDrillMultiplier: 50
+tier: 4
+liquidBoostIntensity: 1.5
+warmupSpeed: 1
+drawMineItem: true
+drillEfect: mine
+drillEfectRnd: -1
+drillEfectChance: 0.02
+rotateSpeed: 2
+updateEffect: pulverizeSmall
+updateEffectChance: 0.02
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+researchCost: [
+    i-01-azure/360
+    i-03-sulfer/200
+    i-04-malicite/100
+]

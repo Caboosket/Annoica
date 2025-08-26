@@ -1,0 +1,6 @@
+type: floor
+name: Azure Floor
+variants: 2
+attributes: {
+  azure-floor: 1
+}

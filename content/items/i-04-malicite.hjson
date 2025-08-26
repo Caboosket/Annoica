@@ -1,0 +1,8 @@
+type: item
+name: Malicite
+description: Used for better than better refinery and buidings.
+color: 54d67d
+lowPriority: true
+buildable: true
+hidden: false
+hardness: 4
