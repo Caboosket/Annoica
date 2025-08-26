@@ -1,9 +1,0 @@
-type: DuctJunction
-name: Rail Junction
-description: Junction for two crossing rails.
-research: duct-router
-requirements: [
-    metalic-rod/5
-]
-speed: 10 
-health: 50

@@ -1,8 +1,0 @@
-type: item
-name: Malicite
-description: T3 item, Looks like plastainium.
-color: 54d67d
-lowPriority: true
-buildable: true
-hidden: false
-hardness: 4

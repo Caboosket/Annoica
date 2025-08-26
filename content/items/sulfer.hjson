@@ -1,9 +1,0 @@
-type: item
-name: Sulfer
-description: T2 item, Looks like surge alloy.
-color: eab678
-charge: 125
-lowPriority: true
-buildable: true
-hidden: false
-hardness: 3

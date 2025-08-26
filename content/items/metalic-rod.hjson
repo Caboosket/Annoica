@@ -1,7 +1,0 @@
-type: item
-name: Azure
-description: T1 item, m.
-color: 544deb
-lowPriority: true
-buildable: true
-hardness: 2
