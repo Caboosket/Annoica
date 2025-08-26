@@ -1,4 +1,4 @@
 type: OreBlock
 name: Azure
-itemDrop: metalic-rod
+itemDrop: i-01-azure
 varients: 3
