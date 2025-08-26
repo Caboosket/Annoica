@@ -6,8 +6,8 @@ category: liquid
 squareSprite: false
 research: 04b-01-pipe-t1
 requirements: [
-  metalic-rod/8
+  i-01-azure/8
 ]
 researchCost: [
-  metalic-rod/80
+  i-01-azure/80
 ]

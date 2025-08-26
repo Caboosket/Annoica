@@ -6,10 +6,10 @@ name: Liquid Holder
 description: Stores liquids and outputs them to all sides.
 category: liquid
 requirements: [
-  metalic-rod/30
+  i-01-azure/30
 ]
 research: 04b-03-liquid-router
 liquidPadding: 1.8
 researchCost: [
-  metalic-rod/300
+  i-01-azure/300
 ]

@@ -5,10 +5,10 @@ size: 1
 category: liquid
 research: 01b-01-core-bunker
 requirements: [
-  metalic-rod/30
+  i-01-azure/30
 ]
 pumpAmount: 1
 researchCostMultiplier: 0.5
 researchCost: [
-  metalic-rod/300
+  i-01-azure/300
 ]

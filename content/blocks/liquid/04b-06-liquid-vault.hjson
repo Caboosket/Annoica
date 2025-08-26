@@ -6,10 +6,10 @@ name: Liquid Vault
 description: Stores liquids and outputs them to all sides.
 category: liquid
 requirements: [
-  metalic-rod/60
+  i-01-azure/60
 ]
 research: 04b-05-liquid-holder
 liquidPadding: 1.8
 researchCost: [
-  metalic-rod/600
+  i-01-azure/600
 ]

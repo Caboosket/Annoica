@@ -9,8 +9,8 @@ hasPower: false
 category: liquid
 research: 04b-02-liquid-junction
 requirements: [
-  metalic-rod/12
+  i-01-azure/12
 ]
 researchCost: [
-  metalic-rod/120
+  i-01-azure/120
 ]
