@@ -1,0 +1,6 @@
+type: floor
+name: Sulfer Floor
+variants: 3
+attributes: {
+  sulfer-floor: 1
+}

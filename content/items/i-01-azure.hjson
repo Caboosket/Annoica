@@ -1,0 +1,8 @@
+type: item
+name: Azure
+description: Primary resource used for building basic buildings and refinery.
+color: 544deb
+flammability: 1.5
+lowPriority: true
+buildable: true
+hardness: 2

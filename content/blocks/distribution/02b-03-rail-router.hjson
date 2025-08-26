@@ -1,0 +1,16 @@
+type: Router
+name: Rail Router
+description: Distributes input items from rails to three directions equally. 
+size: 1
+speed: 10
+health: 110
+itemCapacity: 3
+requirements: [
+  metalic-rod/3
+]
+category: distribution
+research: 02b-02-rail-junction
+researchCostMultiplier: 0.5
+researchCost: [
+    metalic-rod/30
+]

@@ -1,0 +1,29 @@
+type: drill
+name: Better Drill
+description: Better than the base drill.
+requirements: [
+    metalic-rod/24
+    sulfer/10
+]
+research: 03b-01-drill-t1
+category: production
+size: 2
+drillTime: 25
+hardnessDrillMultiplier: 50
+tier: 3
+liquidBoostIntensity: 1.5
+warmupSpeed: 2.5
+drawMineItem: true
+drillEfect: mine
+drillEfectRnd: -1
+drillEfectChance: 0.02
+rotateSpeed: 2
+updateEffect: pulverizeSmall
+updateEffectChance: 0.02
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+researchCost: [
+    metalic-rod/240
+    sulfer/100
+]

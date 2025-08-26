@@ -1,0 +1,19 @@
+name: "annoica"
+displayName: "Annoica"
+author: "[orange]Caboosket"
+description: '''
+anotha planet mod
+sooooooooo
+conquest!!!
+and bring ur own music
+
+!![red] NOTICE:
+major credit to the creators of asthosus as i used the mod as a template/refrence for things
+[white]!!
+'''
+subtitle: "planetal"
+version: "0.3 Alpha"
+minGameVersion: 146
+repo: "Caboosket/Annoica"
+dependencies: [hjsonpp]
+hidden: false

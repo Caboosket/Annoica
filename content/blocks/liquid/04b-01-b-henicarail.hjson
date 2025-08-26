@@ -1,0 +1,16 @@
+type: Conduit
+name: Henicarail
+description: Transports liquids forward.
+category: liquid
+requirements: [
+  sulfer/2
+  malicite/3
+]
+health: 100
+research: 04b-01-pipe-t1
+leaks: false
+underBullets: true
+researchCost: [
+  sulfer/20
+  malicite/30
+]

@@ -1,0 +1,13 @@
+type: LiquidJunction
+name: Condurail Junction
+description: Used for crossing two condurails.
+solid: false
+category: liquid
+squareSprite: false
+research: 04b-01-pipe-t1
+requirements: [
+  metalic-rod/8
+]
+researchCost: [
+  metalic-rod/80
+]

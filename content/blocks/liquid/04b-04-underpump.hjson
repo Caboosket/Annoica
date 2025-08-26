@@ -1,0 +1,14 @@
+type: Pump
+name: Underpump
+description: Extracts fluids. (do u get the refrence in the name?)
+size: 1
+category: liquid
+research: 01b-01-core-bunker
+requirements: [
+  metalic-rod/30
+]
+pumpAmount: 1
+researchCostMultiplier: 0.5
+researchCost: [
+  metalic-rod/300
+]
