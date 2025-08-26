@@ -12,7 +12,7 @@ major credit to the creators of asthosus as i used the mod as a template/refrenc
 [white]!!
 '''
 subtitle: "planetal"
-version: "1.0.1"
+version: "1.0.2"
 minGameVersion: 146
 repo: "Caboosket/Annoica"
 dependencies: [hjsonpp]
