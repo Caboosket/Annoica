@@ -34,7 +34,7 @@ ammoTypes: {
         width: 4
         height: 8
         lifetime: 30
-        pierce: false
+        pierce: true
         damage: 10
         weaveScale: 0
         weaveMag: 0
@@ -50,7 +50,7 @@ ammoTypes: {
         width: 8
         height: 8
         lifetime: 30
-        pierce: true
+        pierce: false
         damage: 20
         weaveScale: 0
         weaveMag: 0
