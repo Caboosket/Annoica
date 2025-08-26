@@ -1,8 +1,0 @@
-type: item
-name: Thorninium
-description: T4 item, Looks like thorium.
-color: 985bb0
-lowPriority: true
-buildable: true
-hidden: false
-hardness: 5
