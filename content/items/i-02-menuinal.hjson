@@ -1,7 +1,7 @@
 type: item
-name: Azure
+name: Menuinal
 description: Secondary resource used for building basic buildings and refinery.
-color: 544deb
+color: cbd97f
 flammability: 0.5
 lowPriority: true
 buildable: true
