@@ -1,0 +1,115 @@
+type: ItemTurret
+name: Henicle
+description: Fires bullets at air enemys to help pentas.
+requirements: [
+    i-01-azure/50
+    i-02-menuinal/25
+]
+researchCost: [
+    i-01-azure/500
+    i-02-menuinal/250
+]
+category: turret
+research: 05b-01-quantro
+size: 2
+range: 55
+placeOverlapMargin: 56
+rotateSpeed: 5
+fogRadiusMultiplier: 1
+disableOverlapCheck: true
+coolEfect: fuelburn
+coolantMultiplier: 5
+coolant: {
+    type: ConsumeCoolant
+    allowGas: true
+    allowLiquid: true
+    amount: 0.2
+}
+ammoTypes: {
+    i-02-menuinal: {
+        frontColor: 96f58c
+        backColor: 28785c
+        trailColor: 28785c
+        pierceArmor: false
+        hitEffect: mine
+        hitSound: drill
+        type: BasicBulletType
+        speed: 5
+        width: 4
+        height: 4
+        lifetime: 30
+        pierce: false
+        damage: 10
+        weaveScale: 0
+        weaveMag: 0
+    }
+    i-05-malicite: {
+        frontColor: ffffff
+        backColor: D4806B
+        trailColor: D4806B
+        pierceArmor: false
+        hitEffect: mine
+        hitSound: drill
+        type: BasicBulletType
+        speed: 5
+        width: 4
+        height: 4
+        lifetime: 30
+        pierce: true
+        damage: 20
+        weaveScale: 0
+        weaveMag: 0 
+    }
+}
+reload: 10.0
+timerTarget: 1
+targetInterval: 20
+newTargetInterval: -1
+maxAmmo: 40
+ammoPerShot: 1
+consumeAmmoOnce: true
+heatRequirement: -1
+maxHeatEfficency: 3
+inaccuracy: 0
+velocityRnd: 0
+scaleLifetimeOffset: 0
+shootCone: 90
+shootX: 0
+shootY: 5
+xRand: 0
+drawMinRange: false
+trackingRange: 0
+minRange: 0
+minWarmup: 0
+accurateDelay: true
+moveWhileCharging: true
+reloadWhileCarging: false
+warmupMaintainTime: 0
+targetAir: true
+targetGround: false
+targetBlocks: false
+targetHealing: false
+playerControllable: true
+displayAmmoMultiplier: true
+targetUnderBlocks: false
+alwaysShooting: false
+predictTarget: true
+unitSort: closest
+heatColor: ab3400ff
+ammoUseEffect: mine
+shootSound: laserblast
+chargeSound: lasercharge
+loopSound: none
+loopSoundVolume: 0.5
+soundPitchMin: 0.9
+soundPitchMax: 1.1
+ammoEjectBack: 1
+shootWarmupSpeed: 5
+linearWarmup: false
+recoil: 1
+recoils: -1
+recoilTime: -1
+recoilPow: 1.8
+cooldownTime: 20
+elevation: -1
+shake: 0.5

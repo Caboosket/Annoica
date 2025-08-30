@@ -1,0 +1,12 @@
+type: DuctJunction
+name: Rail Junction
+description: Junction for two crossing rails.
+research: 02b-01-azure-rail
+requirements: [
+    i-01-azure/5
+]
+speed: 10 
+health: 50
+researchCost: [
+    i-01-azure/50
+]

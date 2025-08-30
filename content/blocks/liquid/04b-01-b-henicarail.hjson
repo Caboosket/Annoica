@@ -1,0 +1,18 @@
+type: Conduit
+name: Henicarail
+description: Transports liquids forward.
+category: liquid
+requirements: [
+  i-04-sulfer/2
+  i-05-malicite/3
+]
+health: 100
+research: 04b-01-pipe-t1
+leaks: false
+underBullets: true
+junctionReplacement: 04b-02-liquid-junction
+bridgeReplacement:04b-07-overhead-condurail
+researchCost: [
+  i-04-sulfer/20
+  i-05-malicite/30
+]

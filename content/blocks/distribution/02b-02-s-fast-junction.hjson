@@ -1,0 +1,14 @@
+type: DuctJunction
+name: Fast Junction
+description: Junction for two crossing rails, but faster.
+research: 02b-02-rail-junction
+requirements: [
+    i-04-sulfer/7
+    i-05-malicite/7
+]
+speed: 1.0 
+health: 50
+researchCost: [
+    i-04-sulfer/70
+    i-05-malicite/70
+]

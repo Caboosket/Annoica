@@ -1,0 +1,14 @@
+type: Block
+name: Thruster
+description: Intakes and launches out air a lot to levitate the block/unit above it. Used for large FO building.
+details: it doesnt lie about it being a large thruster
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i-02-menuinal/24
+  i-05-malicite/12
+  i-07-thorninium/6
+]
+research: thruster
+researchCostMultiplier: 0.25

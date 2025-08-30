@@ -1,0 +1,17 @@
+type: Duct
+name: Fast Travel Rail
+description: Still not a duct or conveyor, but it sure is fast.
+details: same for this.
+research: 02b-azure-rail
+requirements: [
+    i-04-sulfer/2
+    i-05-malicite/2
+]
+category: distribution
+health: 50
+speed: 1.0
+research: 02b-03-rail-router
+researchCost: [
+    i-04-sulfer/20
+    i-05-malicite/20
+]

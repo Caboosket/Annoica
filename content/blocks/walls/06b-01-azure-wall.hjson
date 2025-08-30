@@ -1,0 +1,14 @@
+type: Wall
+name: Azure Wall
+description: Protects structures from incoming damage.
+size: 1
+health: 400
+squareSprite: false
+requirements: [
+  i-01-azure/6
+]
+research: 05b-01-quantro
+category: defense
+researchCost: [
+  i-01-azure/60
+]

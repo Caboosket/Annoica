@@ -1,0 +1,43 @@
+type: UnitAssembler
+name: Support Builder
+description: Creates support units using payloads. Requires power.
+size: 5
+category: units
+droneType: ou-02-assembler
+requirements: [
+  i-01-azure/110
+  i-02-menuinal/130
+  i-05-malicite/120
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: su-01-gevienalnical
+    requirements: [
+      annoica-05b-01-quantro/1
+      annoica-06b-01-azure-wall/3
+      annoica-thrusters/1
+    ]
+    time: 2700
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
+areaSize: 13
+/*research: {
+  parent: 01b-01-core-bunker
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-05-immist
+    }
+  ]
+}*/
+research: 01b-01-core-bunker
+researchCost: [
+  i-01-azure/1100
+  i-02-menuinal/1300
+  i-05-malicite/1200
+]

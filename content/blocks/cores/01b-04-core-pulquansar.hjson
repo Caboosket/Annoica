@@ -1,0 +1,16 @@
+type: GeneratorCoreBlock
+name: Core: Pul-quan-sar
+description: A core that can generate power. Stores a medium ammount of items and has some armor.
+health: 750
+requirements: [
+    i-01-azure/1500
+    i-02-menuinal/750
+    i-03-wood/250
+]
+size: 3
+powerProduction: 1
+itemCapacity: 1000
+unitCapModifier: 12
+unitType: cu-04-pulnaquan
+category: effect
+research: 01b-01-core-bunker
