@@ -5,4 +5,4 @@ color: 985bb0
 lowPriority: true
 buildable: true
 hidden: false
-hardness: 5
+hiddenOnPlanets: [serpulo, erekir]

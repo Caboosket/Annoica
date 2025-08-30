@@ -1,6 +1,6 @@
 type: item
-name: Menuinal
-description: Secondary resource used for building basic buildings and refinery.
+name: Wood
+description: Used for power generation and 
 research: i-01-azure
 color: cbd97f
 flammability: 0.5
