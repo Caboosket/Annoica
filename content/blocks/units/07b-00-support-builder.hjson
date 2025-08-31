@@ -16,7 +16,7 @@ plans: [
     requirements: [
       annoica-05b-01-quantro/1
       annoica-06b-01-azure-wall/3
-      annoica-thrusters/1
+      annoica-thruster/3
     ]
     time: 2700
   }
@@ -40,4 +40,5 @@ researchCost: [
   i-01-azure/1100
   i-02-menuinal/1300
   i-05-malicite/1200
+
 ]
