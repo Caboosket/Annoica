@@ -15,5 +15,7 @@ subtitle: "planetal"
 version: "1.0.2"
 minGameVersion: 146
 repo: "Caboosket/Annoica"
-dependencies: [hjsonpp]
+dependencies: [
+    ac
+]
 hidden: false
