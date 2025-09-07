@@ -11,7 +11,7 @@ engineOffset: 0
 payloadCapacity: 0
 targetable: false
 bounded: false
-outlineColor: 44413c
+outlineColor: 939393
 isEnemy: false
 hidden: true
 useUnitCap: false
