@@ -1,0 +1,10 @@
+type: item
+name: Wood
+description: Used for power generation and 
+research: i-01-azure
+color: a85015
+flammability: 1
+lowPriority: true
+buildable: true
+hardness: 2
+hiddenOnPlanets: [serpulo, erekir]

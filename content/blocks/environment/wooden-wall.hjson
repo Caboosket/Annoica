@@ -1,0 +1,6 @@
+name: Wooden Wall
+type: StaticWall
+attributes: {
+  wooden: 1
+}
+variants: 3

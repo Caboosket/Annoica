@@ -1,0 +1,12 @@
+name: Recovered txt; ???
+description: A recovered txt from signals coming from the ground(?)
+details: They sent the idea back and became the backup planet for sharded. Whilst they where joyed, Mevil had located them via a radar but decided to give them some time.
+/*research: {
+  parent: m-04-
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-04-
+    }
+  ]
+}*/

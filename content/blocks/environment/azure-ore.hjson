@@ -1,0 +1,4 @@
+type: OreBlock
+name: Azure
+itemDrop: i-01-azure
+varients: 3

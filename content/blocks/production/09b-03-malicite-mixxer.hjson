@@ -1,0 +1,86 @@
+type: GenericCrafter
+name: Malicite Mixxer
+description: Mixxes together menuinal and wood to make malicite.
+size: 2
+craftEffect: smeltsmoke
+outputItems: [
+  i-05-malicite/1
+]
+consumes: {
+  items: [
+    i-02-menuinal/1
+    i-03-wood/1
+  ]
+}
+craftTime: 90
+/*craftEffect: {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 90
+  rotationOffset: 45
+  amount: 4
+  lengthOffset: 6
+  effect: {
+    type: ParticleEffect
+    spin: 0.1
+    particles: 3
+    length: 9
+    line: true
+    strokeFrom: 0.3
+    strokeTo: 0.05
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 120
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    cone: 12
+    useRotation: false
+    baseRotation: 90
+  }
+}*/
+category: crafting
+/*research: {
+  parent: 09b-01-sulfer-crusher
+  objectives: [
+    {
+      type: OnSector
+      preset: m-04-???
+    }
+  ]
+}*/
+research: 09b-01-sulfer-crusher
+researchCost: [
+  i-01-azure/400
+  i-02-menuinal/300
+  i-04-sulfer/100
+]
+requirements: [
+  i-01-azure/40
+  i-02-menuinal/30
+  i-04-sulfer/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2.1
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+ambientSound: grinding
+ambientSoundVolume: 0.08

@@ -1,0 +1,12 @@
+name: Recovered txt; ???
+description: A recovered txt from signals coming from the ground(?)
+details: Upon arrival, due to the look of the planet, the scouts immedietly decided that they should send everyone to Annoica if the crux where to manage to gain the foothold.
+/*research: {
+  parent: m-03-
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-03-
+    }
+  ]
+}*/

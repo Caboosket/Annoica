@@ -1,0 +1,16 @@
+type: Conduit
+name: Condurail
+description: Transports liquids forward.
+category: liquid
+requirements: [
+  i-01-azure/1
+]
+health: 35
+research: 04b-04-underpump
+leaks: false
+underBullets: true
+junctionReplacement: 04b-02-liquid-junction
+bridgeReplacement:04b-07-overhead-condurail
+researchCost: [
+  i-01-azure/10
+]

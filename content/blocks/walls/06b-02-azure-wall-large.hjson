@@ -1,0 +1,14 @@
+type: Wall
+name: Large Azure Wall
+description: Protects structures from incoming damage.
+size: 2
+health: 800
+squareSprite: false
+requirements: [
+  i-01-azure/24
+]
+research: 06b-01-azure-wall
+category: defense
+researchCost: [
+  i-01-azure/240
+]

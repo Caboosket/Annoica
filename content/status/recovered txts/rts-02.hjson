@@ -1,0 +1,12 @@
+name: Recovered txt; Helnvina
+description: A recovered txt from signals coming from the ground(?)
+details: During the early years of the war, one of shardeds radars had located Annoica, and sent out scouts to find what its like.
+research: {
+  parent: m-02-helnvina
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-02-helnvina
+    }
+  ]
+}

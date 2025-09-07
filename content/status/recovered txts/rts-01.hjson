@@ -1,0 +1,12 @@
+name: Recovered txt; Accent
+description: A recovered txt from signals coming from the ground(?)
+details: Once in the solar system of serpulo, was a planet that wasnt colonized ever, Once able to sustain ~10m people, being Annoica.
+research: {
+  parent: m-01-accent
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-01-accent
+    }
+  ]
+} 

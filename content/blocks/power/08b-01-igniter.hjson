@@ -1,0 +1,40 @@
+type: ConsumeGenerator
+name: Igniter
+description: Ignites flamable materials inorder to create power.
+requirements: [
+    i-01-azure/15
+    i-02-menuinal/15
+    i-03-wood/5
+]
+research: 01b-01-core-bunker
+researchCost: [
+    i-01-azure/150
+    i-02-menuinal/150
+    i-03-wood/50
+]
+category: power
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.5
+itemDuration: 120
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.03
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+            type: DrawRegion
+            suffix: -bottom
+        }
+        {
+            type: DrawPistons
+            sinMag: 2
+            sinScl: 4
+        }
+        {
+            type: DrawDefault
+        }
+    ]
+}

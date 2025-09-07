@@ -1,0 +1,28 @@
+type: WallCrafter
+name: Wood Extractor
+description: Extracts wood from Wooden Walls.
+size: 2
+category: production
+requirements: [
+    i-01-azure/10
+    i-02-menuinal/10
+]
+drillTime: 240
+output: i-03-wood
+attribute: wooden
+ambientSound: drill
+ambientSoundVolume: 0.08
+research: {
+  parent: 03b-01-drill-t1
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-02-helnvina
+    }
+  ]
+}
+researchCost: [
+  i-01-azure/100
+  i-02-menuinal/100 
+]
+alwaysUnlocked: false

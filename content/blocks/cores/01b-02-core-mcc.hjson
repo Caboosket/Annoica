@@ -1,0 +1,25 @@
+type: CoreBlock
+name: Core: MCC
+description: Core of the base. Armored and stores items.
+requirements: [
+  i-01-azure/240
+  i-02-menuinal/160
+  i-04-sulfer/80
+  i-05-malicite/40
+]
+isFirstTier: false
+size: 4
+squareSprite: true
+alwaysUnlocked: false
+unitType: cu-02-capcom
+health: 2000
+itemCapacity: 2400
+unitCapModifier: 25
+category: effect
+research: 01b-01-core-bunker
+researchCost: [
+  i-01-azure/2400
+  i-02-menuinal/1600
+  i-04-sulfer/800
+  i-05-malicite/400
+]

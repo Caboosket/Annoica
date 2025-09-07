@@ -1,0 +1,14 @@
+captureWave: 10
+planet: annoica
+sector: 15
+research: {
+  parent: m-01-accent
+  objectives: [
+    {
+      type: SectorComplete
+      preset: m-01-accent
+    }
+  ]
+}
+difficulty: 1
+alwaysUnlocked: false

@@ -1,0 +1,15 @@
+type: LiquidRouter
+size: 2
+hasLiquids: true
+liquidCapacity: 500
+name: Liquid Holder
+description: Stores liquids and outputs them to all sides.
+category: liquid
+requirements: [
+  i-01-azure/30
+]
+research: 04b-03-liquid-router
+liquidPadding: 1.8
+researchCost: [
+  i-01-azure/300
+]
