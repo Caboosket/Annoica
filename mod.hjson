@@ -13,7 +13,7 @@ major credit to the creators of asthosus as i used the mod as a template/refrenc
 '''
 subtitle: "planetal"
 version: "1.1.0"
-minGameVersion: 150.1
+minGameVersion: 153
 repo: "Caboosket/Annoica"
 dependencies: [
     hjsonpp
