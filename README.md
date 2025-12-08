@@ -2,7 +2,7 @@
 <!----------------------------------[ Badges ]--------------------------------->
 
 [Badge Discord]: https://img.shields.io/discord/1393671529639972894?style=for-the-badge&label=Discord%20Server
-[Badge Commit]: https://img.shields.io/github/last-commit/Caboosket/Annoica?style=for-the-badge&label=Last%20Commit
+[Badge Commits]: https://img.shields.io/github/last-commit/Caboosket/Annoica?style=for-the-badge&label=Last%20Commit
 [Badge Issues]: https://img.shields.io/github/issues/Caboosket/Annoica?style=for-the-badge
 <!----------------------------------[ Links ]--------------------------------->
 [Logo]: sprites-override/ui/logo.png
