@@ -17,8 +17,8 @@
 ![Logo]
 <br>
 ![Discord][Badge Discord]<br><br>
-![Commit][Badge Commits]<br>
-![Issues][Badge Issues]<br>
+![Commit][Badge Commits]
+![Issues][Badge Issues]<br><br>
 another planet mod, ment to be more uniqe then the rest.
 
 and yet new horizons are still yet to come.
