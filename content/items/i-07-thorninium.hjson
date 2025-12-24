@@ -1,8 +1,0 @@
-type: item
-name: Thorninium
-description: Used in pretty good buildings and units.
-color: 985bb0
-lowPriority: true
-buildable: true
-hidden: false
-hiddenOnPlanets: [serpulo, erekir]

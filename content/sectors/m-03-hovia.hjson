@@ -1,0 +1,14 @@
+captureWave: 22
+planet: annoica
+sector: 56
+research: {
+  parent: m-02-corvon
+    objectives: [
+    {
+      type: SectorComplete
+      preset: m-02-corvon
+    }
+  ]
+}
+difficulty: 3
+alwaysUnlocked: false

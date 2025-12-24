@@ -1,0 +1,72 @@
+type: LiquidTurret
+name: Liguieon
+description: Launches inputed liquids at enemys.
+outlineColor: 000000
+size: 2
+category: turret
+requirements: [
+    i-01-azure/125
+    i-02-menuinal/50
+]
+research: 05b-01-quantro
+researchCost: [
+    i-01-azure/1250
+    i-02-menuinal/500
+]
+range: 150
+reload: 0
+shootY: 15
+shootSound: liquidshoot
+ammoTypes: {
+    l-01-distilled-water: {
+        frontColor: 5561d2
+        backColor: 131a55
+        trailColor: 131a55
+        pierceArmor: true
+        hitEffect: mine
+        type: LiquidBulletType
+        liquid: l-01-distilled-water
+        speed: 5
+        width: 6
+        height: 6
+        lifetime: 30
+        pierce: true
+        damage: 25
+        weaveScale: 5
+        weaveMag: 5
+    }
+    water: {
+        frontColor: 7090ea
+        backColor: 363f9a
+        trailColor: 363f9a
+        pierceArmor: true
+        hitEffect: mine
+        type: LiquidBulletType
+        liquid: water
+        speed: 5
+        width: 6
+        height: 6
+        lifetime: 30
+        pierce: true
+        damage: 10
+        weaveScale: 0
+        weaveMag: 0
+    }
+    l-02-super-cooled-water: {
+        frontColor: def1f9
+        backColor: 3f8099
+        trailColor: 3f8099
+        pierceArmor: true
+        hitEffect: mine
+        type: LiquidBulletType
+        liquid: l-02-super-cooled-water
+        speed: 5
+        width: 6
+        height: 6
+        lifetime: 30
+        pierce: true
+        damage: 10
+        weaveScale: 1
+        weaveMag: 1
+    }
+}

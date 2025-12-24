@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Steam Pressure Highener
+description: Intakes pressure to make steam HPS.
+health: 122
+buildSpeed: 120
+size: 3
+craftEffect: none
+outputLiquids: [
+  l-04-hps/1
+]
+consumes: {
+  liquids: [
+    l-03-steam/1
+  ]
+  power: 2
+}
+craftTime: 90
+category: logic
+research: 10b-01-water-boiler
+researchCost: [
+  i-01-azure/1000
+  i-02-menuinal/500
+  i-04-sulfer/200
+]
+requirements: [
+  i-01-azure/100
+  i-02-menuinal/50
+  i-04-sulfer/20
+]
+ambientSound: none
+ambientSoundVolume: 0.08

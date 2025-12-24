@@ -1,0 +1,14 @@
+captureWave: 41
+planet: annoica
+sector: 34
+research: {
+  parent: m-03-hovia
+    objectives: [
+    {
+      type: SectorComplete
+      preset: m-03-hovia
+    }
+  ]
+}
+difficulty: 4
+alwaysUnlocked: false

@@ -1,0 +1,14 @@
+type: Sorter
+name: Inverted Rail Sorter
+description: Sorts items. Sends configured item to sides whilst others go to the input direction.
+research: 02b-07-rail-sorter
+requirements: [
+    i-01-azure/15
+]
+category: distribution
+invert: true
+health: 50
+speed: 10
+researchCost: [
+    i-01-azure/150
+]

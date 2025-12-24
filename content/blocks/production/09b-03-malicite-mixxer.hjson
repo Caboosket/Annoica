@@ -40,15 +40,6 @@ craftTime: 90
   }
 }*/
 category: crafting
-/*research: {
-  parent: 09b-01-sulfer-crusher
-  objectives: [
-    {
-      type: OnSector
-      preset: m-04-???
-    }
-  ]
-}*/
 research: 09b-01-sulfer-crusher
 researchCost: [
   i-01-azure/400
@@ -72,6 +63,12 @@ drawer: {
       suffix: -rotator
       spinSprite: true
       rotateSpeed: 2.1
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -2.1
     }
     {
       type: DrawDefault

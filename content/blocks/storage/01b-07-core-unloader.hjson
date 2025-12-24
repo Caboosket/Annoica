@@ -1,0 +1,17 @@
+type: Unloader
+name: Core Unloader
+description: Unloads items from blocks that can hold items, like cores.
+category: effect
+requirements: [
+    i-01-azure/10
+    i-02-menuinal/75
+    i-04-sulfer/50
+    i-05-malicite/25
+]
+research: 02b-03-rail-router
+researchCost: [
+    i-01-azure/100
+    i-02-menuinal/750
+    i-04-sulfer/500
+    i-05-malicite/250
+]

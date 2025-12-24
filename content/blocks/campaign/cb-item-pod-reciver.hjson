@@ -1,0 +1,32 @@
+type: LandingPad
+name: Item Pod Reciver
+description: Recives item pods from Launchers.
+consumeLiquidAmmount: 0
+consumeLiquid: l-01-distilled-water
+bottomColor: b3701e
+squareSprite: false
+category: effect
+size: 5
+health: 1225
+itemCapacity: 500
+liquidCapacity: 100
+launchTime: 480.0
+consumes: {
+  liquids: [
+    water/0.2
+  ]
+  power: 0.5
+}
+requirements: [
+  i-01-azure/125
+  i-02-menuinal/125
+  i-04-sulfer/100
+]
+research: {
+  parent: cb-launcher
+  requirements: [
+  i-01-azure/12250
+  i-02-menuinal/1250
+  i-05-malicite/1000
+  ]
+}

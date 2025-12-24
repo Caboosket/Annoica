@@ -1,6 +1,7 @@
 type: ItemTurret
 name: Penta
 description: Fires bullets at ground enemys to protect ur core.
+outlineColor: 000000
 requirements: [
     i-01-azure/35
 ]
@@ -8,7 +9,7 @@ researchCost: [
     i-01-azure/350
 ]
 category: turret
-research: 01b-01-core-bunker
+research: vanilla
 range: 105
 placeOverlapMargin: 56
 rotateSpeed: 5
@@ -24,7 +25,7 @@ coolant: {
 }
 ammoTypes: {
     i-01-azure: {
-        frontColor: ffffff
+        frontColor: 80a9ff
         backColor: 3F207D
         trailColor: 3F207D
         pierceArmor: true
@@ -34,7 +35,7 @@ ammoTypes: {
         width: 4
         height: 8
         lifetime: 30
-        pierce: false
+        pierce: true
         damage: 10
         weaveScale: 0
         weaveMag: 0
@@ -50,44 +51,23 @@ ammoTypes: {
         width: 8
         height: 8
         lifetime: 30
-        pierce: true
+        pierce: false
         damage: 20
         weaveScale: 0
         weaveMag: 0
     }
 }
 reload: 50.0
-timerTarget: 1
-targetInterval: 20
-newTargetInterval: -1
 maxAmmo: 40
-ammoPerShot: 5
-consumeAmmoOnce: true
-heatRequirement: -1
-maxHeatEfficency: 3
-inaccuracy: 0
-velocityRnd: 0
-scaleLifetimeOffset: 0
+ammoPerShot: 1
+consumeAmmoOnce: false
 shootCone: 90
-shootX: 0
-shootY: 0
-xRand: 0
-drawMinRange: false
-trackingRange: 0
-minRange: 0
-minWarmup: 0
-accurateDelay: true
 moveWhileCharging: true
 reloadWhileCarging: false
-warmupMaintainTime: 0
-targetAir: true
+targetAir: false
 targetGround: true
 targetBlocks: false
 targetHealing: false
-playerControllable: true
-displayAmmoMultiplier: true
-targetUnderBlocks: false
-alwaysShooting: false
 predictTarget: true
 unitSort: closest
 heatColor: ab3400ff
@@ -95,16 +75,3 @@ ammoUseEffect: mine
 shootSound: laserblast
 chargeSound: lasercharge
 loopSound: none
-loopSoundVolume: 0.5
-soundPitchMin: 0.9
-soundPitchMax: 1.1
-ammoEjectBack: 1
-shootWarmupSpeed: 5
-linearWarmup: false
-recoil: 1
-recoils: -1
-recoilTime: -1
-recoilPow: 1.8
-cooldownTime: 20
-elevation: -1
-shake: 0.5

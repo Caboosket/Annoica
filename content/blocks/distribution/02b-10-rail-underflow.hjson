@@ -1,0 +1,14 @@
+type: OverflowGate
+name: Rail Underflow Protector
+description: Sends items to the front, but sends them to the sides if overflowing.
+research: 02b-09-rail-overflow
+invert: true
+requirements: [
+    i-01-azure/15
+]
+category: distribution
+health: 50
+speed: 10
+researchCost: [
+    i-01-azure/150
+]

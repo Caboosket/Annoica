@@ -1,0 +1,23 @@
+type: MessageBlock
+name: Message Vault
+description: Stores a message for reading later. Can be used with magicers to make stat displays. Able to hold more text.
+category: logic
+size: 2
+maxTextLength: 440
+maxNewlines: 48
+health: 1225
+requirements: [
+    i-01-azure/12
+    i-02-menuinal/12
+    i-04-sulfer/25
+    i-05-malicite/25
+]
+research: {
+    parent: lb-03-message-storage
+    requirements: [
+        i-01-azure/120
+        i-02-menuinal/120
+        i-04-sulfer/250
+        i-05-malicite/250
+    ]
+}

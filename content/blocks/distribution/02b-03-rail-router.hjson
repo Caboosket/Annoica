@@ -10,7 +10,6 @@ requirements: [
 ]
 category: distribution
 research: 02b-02-rail-junction
-researchCostMultiplier: 0.5
 researchCost: [
   i-01-azure/30
 ]

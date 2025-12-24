@@ -1,0 +1,4 @@
+type: Prop
+name: Log
+variants: 2
+breakSound: mine

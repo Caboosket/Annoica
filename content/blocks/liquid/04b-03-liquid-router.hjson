@@ -8,7 +8,7 @@ health: 45
 liquidCapacity: 20
 category: liquid
 squareSprite: true
-research: 04b-02-liquid-junction
+research: 04b-02-condurail-junction
 requirements: [
   i-01-azure/10
 ]

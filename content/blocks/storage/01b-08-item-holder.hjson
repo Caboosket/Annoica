@@ -1,0 +1,16 @@
+type: StorageBlock
+name: Item Holder
+description: Stores items. Unloadable via a Core Unloader. Fragile.
+category: effect
+requirements: [
+  i-02-menuinal/30
+  i-05-malicite/70
+]
+Health: 800
+itemCapacity: 200
+size: 2
+research: 01b-07-core-unloader
+researchCost: [
+  i-02-menuinal/300
+  i-05-malicite/700
+]

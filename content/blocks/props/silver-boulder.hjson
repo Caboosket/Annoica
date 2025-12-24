@@ -1,0 +1,4 @@
+type: Prop
+name: Silver Boulder
+variants: 2
+breakSound: rockBreak

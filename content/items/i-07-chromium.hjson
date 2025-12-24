@@ -1,0 +1,9 @@
+type: item
+name: Chromium
+description: Found in its unuseable counter part. Used in pretty good buildings and units.
+color: 858585
+lowPriority: true
+buildable: true
+hidden: false
+research: i-06-silver-bunch
+hiddenOnPlanets: [serpulo, erekir]

@@ -5,11 +5,13 @@ category: liquid
 requirements: [
   i-01-azure/1
 ]
+speed: 10
 health: 35
 research: 04b-04-underpump
 leaks: false
 underBullets: true
-junctionReplacement: 04b-02-liquid-junction
+botColor: 191d29
+junctionReplacement: 04b-02-condurail-junction
 bridgeReplacement:04b-07-overhead-condurail
 researchCost: [
   i-01-azure/10

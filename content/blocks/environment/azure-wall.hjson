@@ -1,3 +1,4 @@
 type: StaticWall
 name: Azure Wall
 variants: 3
+color: 80a9ff

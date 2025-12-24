@@ -1,0 +1,28 @@
+/*type: UnitConstructor
+name: Carrier Builder
+description: Creates a payload carrier. Requires power.
+size: 2
+category: units
+research: vanilla
+requirements: [
+  i-01-azure/60
+  i-02-menuinal/60
+]
+researchRequirements: [
+  i-01-azure/600
+  i-02-menuinal/600
+]
+plans: [
+  {
+    type: ConstructorUnitPlan
+    unit: ou-03-payload-carrier
+    requirements: [
+      annoica-02b-01-azure-rail/1
+    ]
+    time: 1
+  }
+]
+squareSprite: false
+consumes: {
+  power: 1
+}

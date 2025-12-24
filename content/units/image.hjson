@@ -1,0 +1,26 @@
+type: tank
+name: image.png
+description: A car-tank(carnk?). Intended for tanks and not to be a standalone unit.
+controller: TankAI
+outlineColor: 000000
+omniMovement: false
+faceTarget: true
+speed: 1
+rotateSpeed: 1
+health: 100
+armor: 0
+itemCapacity: 140
+treadRects: [
+    {
+        x: -23,
+        y: 6,
+        width: 46,
+        height: 12
+    }
+    {
+        x: -23,
+        y: -19,
+        width: 46,
+        height: 12
+    }
+]

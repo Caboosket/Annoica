@@ -7,11 +7,11 @@ category: distribution
 research: 02b-04-export-station
 requirements: [
   i-05-malicite/25
-  i-07-thorninium/90
-  i-01-azure/30
+  i-07-chromium/90
+  i-09-vanadium/30
 ]
 researchCost: [
   i-05-malicite/25
-  i-07-thorninium/90
-  i-01-azure/30
+  i-07-chromium/90
+  i-09-vanadium/30
 ]

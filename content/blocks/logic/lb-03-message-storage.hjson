@@ -1,0 +1,16 @@
+type: MessageBlock
+name: Message Storage
+description: Stores a message for reading later. Can be used with magicers to make stat displays.
+category: logic
+health: 37
+requirements: [
+    i-01-azure/12
+    i-02-menuinal/25
+]
+research: {
+    parent: lb-02-magicer
+    requirements: [
+        i-01-azure/120
+        i-02-menuinal/250
+    ]
+}

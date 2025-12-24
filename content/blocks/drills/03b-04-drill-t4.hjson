@@ -1,0 +1,35 @@
+type: Drill
+name: Meteoric Drill
+description: im so tired...
+requirements: [
+    i-01-azure/144
+    i-04-sulfer/80
+    i-05-malicite/40
+    i-07-chromium/20
+    i-09-vanadium/50
+]
+research: 03b-03-drill-t3
+category: production
+size: 4
+drillTime: 25
+hardnessDrillMultiplier: 50
+tier: 5
+liquidBoostIntensity: 1.5
+warmupSpeed: 1
+drawMineItem: true
+drillEfect: mine
+drillEfectRnd: -1
+drillEfectChance: 0.02
+rotateSpeed: 2
+updateEffect: pulverizeSmall
+updateEffectChance: 0.02
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+researchCost: [
+    i-01-azure/1440
+    i-04-sulfer/800
+    i-05-malicite/400
+    i-07-chromium/200
+    i-09-vanadium/500
+]

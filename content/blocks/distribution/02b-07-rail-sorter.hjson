@@ -1,0 +1,13 @@
+type: Sorter
+name: Rail Sorter
+description: Sorts items. Sends configured item to input direction whilst others go to the sides.
+research: 02b-03-rail-router
+requirements: [
+    i-01-azure/15
+]
+category: distribution
+health: 50
+speed: 10
+researchCost: [
+    i-01-azure/150
+]

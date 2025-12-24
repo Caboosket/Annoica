@@ -1,0 +1,15 @@
+type: DuctRouter
+name: Directional Rail Router
+description: Distributes input items from rails to the indicated directions. Only accepts from the back. 
+size: 1
+speed: 10
+health: 110
+itemCapacity: 3
+requirements: [
+  i-01-azure/5
+]
+category: distribution
+research: 02b-03-rail-router
+researchCost: [
+  i-01-azure/50
+]

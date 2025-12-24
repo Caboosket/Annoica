@@ -4,21 +4,37 @@ description: Ignites flamable materials inorder to create power.
 requirements: [
     i-01-azure/15
     i-02-menuinal/15
-    i-03-wood/5
 ]
-research: 01b-01-core-bunker
+research: vanilla
 researchCost: [
     i-01-azure/150
     i-02-menuinal/150
-    i-03-wood/50
 ]
 category: power
 consumes: {
-  itemFlammable: {}
+    itemFlammable: {}
 }
 powerProduction: 0.5
 itemDuration: 120
-generateEffect: generatespark
+generateEffect: {
+    type: RadialEffect
+    amount: 16
+    rotationSpacing: 45
+    effect: {
+        particles: 1
+        length: 70
+        lifetime: 400
+        cone: 11
+        baseRotation: 35
+        useRotation: false
+        sizeFrom: 0
+        sizeTo: 5
+        colorFrom: 787878
+        colorTo: 78787800
+        sizeInterp: pow2Out
+        interp: pow2Out
+    }
+}
 ambientSound: smelter
 ambientSoundVolume: 0.03
 drawer: {
@@ -29,9 +45,7 @@ drawer: {
             suffix: -bottom
         }
         {
-            type: DrawPistons
-            sinMag: 2
-            sinScl: 4
+            type: DrawCrucibleFlame
         }
         {
             type: DrawDefault

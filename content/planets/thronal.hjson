@@ -1,0 +1,105 @@
+localizedName: Thronal
+description: Annoicals moon, bit harder.
+alwaysUnlocked: true
+mesh: [
+  {
+    //menuinal
+    type: NoiseMesh
+    planet: annoica
+    divisions: 5
+    seed: 7
+    radius: 1
+    color1: cbd97f
+    color2: edf3a9
+    octaves: 3.7
+    persistence: 1.1
+  }/*
+  {
+    //???
+    type: NoiseMesh
+    planet: annoica
+    divisions: 5
+    seed: 94
+    radius: 1
+    color1: 000000
+    color2: 000000
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //???
+    type: NoiseMesh
+    planet: annoica
+    divisions: 6
+    seed: 101
+    radius: 1
+    color1: 000000
+    color2: 000000
+    octaves: 3.7
+    persistence: 0.8
+  }
+  {
+    //???
+    type: NoiseMesh
+    planet: annoica
+    divisions: 5
+    seed: 45
+    radius: 1
+    color1: 000000
+    color2: 000000
+    octaves: 3.7
+    persistence: 0.3
+  }*/
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: annoica
+   speed: 1
+   radius: 0.1
+   divisions: 4
+   color: eafffd7e
+   octaves: 1.5
+   persistence: 0.15
+   scl: 0.5
+   thresh: 0.3
+  }
+]
+generator: SerpuloPlanetGenerator
+campaignRuleDefaults: {
+  fog: false
+  showSpawns: true
+  enemyInvasion: true
+  clearSectorOnLose: false
+}
+orbitRadius: 10
+sectorSize: 2
+allowLaunchSchematics: true
+allowLaunchToNumbered: true
+allowLaunchLoadout: true
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 1
+radius: 1.1
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: edf3a9
+iconColor: edf3a9
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: false
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: annoica
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: []
+liquidWhitelist: []

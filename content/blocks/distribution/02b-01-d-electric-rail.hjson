@@ -1,0 +1,10 @@
+type: StackConveyor
+name: Electric Rail
+description: Instead of one item, sends multiple in stacks. Speed up via power.
+outputRouter: true
+hasPower: true
+consumesPower: true
+conductivePower: true
+health: 140
+itemCapasity: 50
+speed: 5

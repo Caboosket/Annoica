@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Water Boiler
+description: Vaporizes Water into Steam.
+health: 122
+buildSpeed: 120
+size: 3
+craftEffect: none
+outputLiquids: [
+  l-03-steam/0.5
+]
+consumes: {
+  liquids: [
+    water/1
+  ]
+  power: 1
+}
+craftTime: 90
+category: logic
+research: 09b-05-water-stabilization-tower
+researchCost: [
+  i-01-azure/1000
+  i-02-menuinal/500
+  i-04-sulfer/200
+]
+requirements: [
+  i-01-azure/100
+  i-02-menuinal/50
+  i-04-sulfer/20
+]
+ambientSound: none
+ambientSoundVolume: 0.08

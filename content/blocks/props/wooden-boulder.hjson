@@ -1,0 +1,4 @@
+type: Prop
+name: Wooden Boulder
+variants: 2
+breakSound: rockBreak

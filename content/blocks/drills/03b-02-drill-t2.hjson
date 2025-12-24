@@ -1,4 +1,4 @@
-type: drill
+type: Drill
 name: Better Drill
 description: Better than the base drill.
 requirements: [

@@ -7,7 +7,7 @@ arrowSpacing: 6
 range: 6
 hasPower: false
 category: liquid
-research: 04b-02-liquid-junction
+research: 04b-02-condurail-junction
 requirements: [
   i-01-azure/12
 ]

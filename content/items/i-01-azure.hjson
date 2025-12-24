@@ -1,8 +1,8 @@
 type: item
-name: Azure
+name: Rubidium
 description: Primary resource used for building basic buildings and refinery.
 color: 544deb
-research: 01b-01-core-bunker
+research: vanilla
 flammability: 1.5
 lowPriority: true
 buildable: true

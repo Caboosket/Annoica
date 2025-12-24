@@ -1,0 +1,39 @@
+type: Constructor
+name: Hanoical Constructor
+description: 
+''' 
+  Constructs buildings and objects for builders or over-large terain item transport.
+
+  Able to build:
+   - Penta,
+   - Azure Wall,
+   - Large Azure Wall,
+   - Huge Azure Wall,
+   - -
+   - Thruster
+''' 
+size: 3
+category: units
+requirements: [
+  i-01-azure/50
+  i-04-sulfer/50
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+}
+buildSpeed: 1
+filter: [
+  05b-01-quantro,
+  06b-01-azure-wall, 
+  06b-02-azure-wall-large,
+  06b-03-azure-wall-huge,
+  ua-thruster
+]
+research: 07b-00-support-builder
+researchCost: [
+  i-01-azure/500
+  i-04-sulfer/500
+]
+conductivePower: true
+maxBlockSize: 3

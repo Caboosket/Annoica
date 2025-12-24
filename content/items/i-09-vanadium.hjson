@@ -1,0 +1,8 @@
+type: item
+name: Vanadium
+description: Extracted from its unuseable counter part. Used in really good buildings and t4 units.
+color: 89c9b2
+lowPriority: true
+buildable: true
+hidden: false
+hiddenOnPlanets: [serpulo, erekir]

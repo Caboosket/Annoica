@@ -1,0 +1,19 @@
+type: MemoryBlock
+name: DDR1
+description: Stores numbers for magicers.
+category: logic
+memoryCapacity: 32
+requirements: [
+    i-01-azure/12
+    i-02-menuinal/12
+]
+research: {
+    parent: lb-02-magicer
+    requirements: [
+        i-01-azure/120
+        i-02-menuinal/120
+    ]
+    objectives: [
+        l-06-ethanol
+    ]
+}

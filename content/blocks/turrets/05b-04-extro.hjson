@@ -1,0 +1,52 @@
+type: LiquidTurret
+name: Extro
+description: A weird looking turret, Uses steam to fire a beam to kilninize enemys.
+outlineColor: 000000
+size: 2
+category: turret
+requirements: [
+    i-01-azure/125
+    i-02-menuinal/50
+    i-04-sulfer/35
+    i-05-malicite/25
+]
+research: {
+    parent: 05b-03-kilnare
+    objectives: [
+        l-03-steam
+    ]
+}
+researchCost: [
+    i-01-azure/1250
+    i-02-menuinal/500
+    i-04-sulfer/350
+    i-05-malicite/250
+]
+range: 150
+reload: 0
+shootY: 15
+shootSound: flame2
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 1
+}
+ammoTypes: {
+        l-03-steam: {
+        frontColor: ffffff
+        backColor: 939393
+        trailColor: 939393
+        pierceArmor: true
+        hitEffect: mine
+        type: ContinuousFlameBulletType
+        speed: 0
+        width: 4
+        height: 8
+        lifetime: 0
+        pierce: true
+        damage: 10
+        weaveScale: 0
+        weaveMag: 0
+    }
+}

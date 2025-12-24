@@ -1,0 +1,93 @@
+type: ItemTurret
+name: some gun???
+description: tf
+outlineColor: 000000
+requirements: [
+    i-01-azure/1
+]
+researchCost: [
+    i-01-azure/3000
+]
+category: turret
+research: 05b-01-quantro
+size: 1
+range: 190
+placeOverlapMargin: 56
+rotateSpeed: 5
+fogRadiusMultiplier: 1
+disableOverlapCheck: true
+coolEfect: fuelburn
+coolantMultiplier: 5
+coolant: {
+    type: ConsumeCoolant
+    allowGas: true
+    allowLiquid: true
+    amount: 0.2
+}
+ammoTypes: {
+    i-01-azure: {
+        frontColor: 80a9ff
+        backColor: 3F207D
+        trailColor: 3F207D
+        pierceArmor: false
+        hitEffect: mine
+        hitSound: drill
+        type: BasicBulletType
+        buildingDamageMultiplier: 0.01
+        speed: 5
+        width: 10
+        height: 10
+        lifetime: 100
+        pierce: false
+        damage: 100
+        weaveScale: 0
+        weaveMag: 0
+    }
+    i-02-menuinal: {
+        frontColor: 96f58c
+        backColor: 28785c
+        trailColor: 28785c
+        pierceArmor: false
+        hitEffect: mine
+        hitSound: drill
+        type: BasicBulletType
+        buildingDamageMultiplier: 0.01
+        speed: 5
+        width: 10
+        height: 10
+        lifetime: 100
+        pierce: false
+        damage: 100
+        weaveScale: 0
+        weaveMag: 0
+    }
+}
+reload: 250.0
+maxAmmo: 40
+ammoPerShot: 1
+consumeAmmoOnce: true
+targetAir: true
+targetGround: true 
+displayAmmoMultiplier: true
+targetUnderBlocks: false
+alwaysShooting: false
+predictTarget: false
+unitSort: closest
+heatColor: ab3400ff
+ammoUseEffect: mine
+shootSound: shoot-mortar
+chargeSound: none
+loopSound: none
+loopSoundVolume: 0.5
+soundPitchMin: 0.9
+soundPitchMax: 1.1
+ammoEjectBack: 1
+shootWarmupSpeed: 5
+linearWarmup: false
+recoil: 1
+recoils: -1
+recoilTime: -1
+recoilPow: 1.8
+cooldownTime: 20
+elevation: -1
+shake: 0.5

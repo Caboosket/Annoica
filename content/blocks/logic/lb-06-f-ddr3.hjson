@@ -1,0 +1,23 @@
+type: MemoryBlock
+name: DDR3
+description: Stores numbers for magicers. Stores more than DDR2.
+category: logic
+size: 2
+memoryCapacity: 96
+requirements: [
+    i-01-azure/12
+    i-02-menuinal/12
+    i-04-sulfer/12
+    i-05-malicite/12
+    i-07-chromium/32
+]
+research: {
+    parent: lb-06-e-ddr2
+    requirements: [
+        i-01-azure/120
+        i-02-menuinal/120
+        i-04-sulfer/120
+        i-05-malicite/120
+        i-07-chromium/320
+    ]
+}

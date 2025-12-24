@@ -1,0 +1,10 @@
+type: RepairTurret
+name: Repair Gun
+description: Repairs damaged blocks within range, cannot target multiple at once unlike other repairers.
+research: 05b-01-quantro
+size: 1
+shootY: 1
+targetAir: false
+targetGround: false
+targetBlocks: true
+playerControllable: false

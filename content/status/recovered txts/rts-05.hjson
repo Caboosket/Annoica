@@ -1,12 +1,12 @@
-name: Recovered txt; ???
+name: Recovered txt; Helnvina
 description: A recovered txt from signals coming from the ground(?)
 details: After a day, Mevil decided that theyve had enough time let alone and started to send units over to their newest sector, and cameras on the units showed they allready developed defences.
-/*research: {
-  parent: m-05-
+research: {
+  parent: m-05-helnvina
   objectives: [
     {
       type: SectorComplete
-      preset: m-05-
+      preset: m-05-helnvina
     }
   ]
-}*/
+}

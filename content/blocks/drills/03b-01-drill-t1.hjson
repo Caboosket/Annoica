@@ -1,10 +1,10 @@
-type: drill
+type: Drill
 name: Drill
 description: The Base Drill, gonna need it alot eh?
 requirements: [
     i-01-azure/12
 ]
-research: 01b-01-core-bunker
+research: vanilla
 category: production
 drillTime: 50
 hardnessDrillMultiplier: 50

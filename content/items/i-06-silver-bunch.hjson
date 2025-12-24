@@ -1,0 +1,9 @@
+type: item
+name: Silver Bunch
+description: A mess of silver. Unusable for building anything.
+color: 858585
+lowPriority: true
+buildable: false
+hidden: false
+research: i-05-malicite
+hiddenOnPlanets: [serpulo, erekir]

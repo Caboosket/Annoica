@@ -1,0 +1,21 @@
+type: LogicBlock
+name: Magicer
+description: Logic is Magic to average ppl.
+instructionsPerTick: 5
+category: logic
+health: 25
+requirements: [
+    i-01-azure/1225
+]
+research: {
+    parent: 09b-01-sulfer-crusher
+    requirements: [
+        i-01-azure/12250
+    ]
+    /*objectives: [
+    {
+      type: SectorComplete
+      preset: m-launchers-launch-outpost
+    }
+  ]*/
+}

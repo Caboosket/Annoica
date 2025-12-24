@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Water Stabilization Tower
+description: Stabilizes Distilled Water into Water.
+health: 1225
+buildSpeed: 120
+size: 8
+craftEffect: none
+outputLiquids: [
+  water/1
+]
+consumes: {
+  liquids: [
+    l-01-distilled-water/1
+  ]
+}
+craftTime: 90
+category: crafting
+research: 09b-03-malicite-mixxer
+researchCost: [
+  i-01-azure/1500
+  i-02-menuinal/700
+  i-04-sulfer/400
+]
+requirements: [
+  i-01-azure/150
+  i-02-menuinal/70
+  i-04-sulfer/40
+]
+ambientSound: none
+ambientSoundVolume: 0.08

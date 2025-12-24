@@ -1,0 +1,30 @@
+type: naval
+name: Conialia
+description: Swimin. Has some small launchers.
+outlineColor: 000000
+health: 250
+armor: 1
+speed: 1
+hitSize: 25
+weapons: [
+    {
+        x:7
+        y:2
+        name: conialia-weapon
+        mirror: true
+        rotate: true
+        reload: 50
+        shootSound: pew
+        bullet: {
+            type: BasicBulletType
+            damage: 25
+            shootEffect: shootLiquid
+            hitEffect: hitLiquid
+            frontColor: 469abe
+            backColor: 15737a
+            trailColor: 15737a
+            lightColor: 15737a
+            knockback: 10
+        }
+    }
+]

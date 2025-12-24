@@ -1,3 +1,4 @@
 type: StaticWall
 name: Menuinal Wall
 variants: 3
+color: cdf3a9

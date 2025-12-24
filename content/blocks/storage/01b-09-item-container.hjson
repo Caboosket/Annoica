@@ -1,0 +1,16 @@
+type: StorageBlock
+name: Item Container
+description: Stores items. Unloadable via a Core Unloader. Moar.
+category: effect
+requirements: [
+  i-04-sulfer/60
+  i-07-chromium/90
+]
+Health: 1600
+itemCapacity: 1000
+size: 3
+research: 01b-08-item-holder
+researchCost: [
+  i-04-sulfer/600
+  i-07-chromium/900
+]

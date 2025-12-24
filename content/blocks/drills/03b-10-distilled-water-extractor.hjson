@@ -1,0 +1,70 @@
+type: GenericCrafter
+name: Distilled Water Extractor
+description: Extracts distilled water.
+size: 2
+craftEffect: none
+outputLiquids: [
+  l-01-distilled-water/0.5
+]
+craftTime: 90
+/*craftEffect: {
+  type: RadialEffect
+  layer: 118
+  rotationSpacing: 90
+  rotationOffset: 45
+  amount: 4
+  lengthOffset: 6
+  effect: {
+    type: ParticleEffect
+    spin: 0.1
+    particles: 3
+    length: 9
+    line: true
+    strokeFrom: 0.3
+    strokeTo: 0.05
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 120
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+    cone: 12
+    useRotation: false
+    baseRotation: 90
+  }
+}*/
+category: production
+research: 03b-01-drill-t1
+researchCost: [
+  i-01-azure/800
+  i-02-menuinal/600
+]
+requirements: [
+  i-01-azure/80
+  i-02-menuinal/60
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      suffix: -liquid
+      drawLiquid: l-01-distilled-water
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2.1
+    }
+  ]
+}
+ambientSound: ginding
+ambientSoundVolume: 0.08

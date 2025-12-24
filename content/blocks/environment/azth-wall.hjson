@@ -1,0 +1,4 @@
+type: StaticWall
+name: Silver Wall
+variants: 3
+color: bebebe

@@ -1,0 +1,17 @@
+type: PowerNode
+name: Large Connector
+size: 2
+description: Moves power between connectors or power generating/using objects. Has more range and max connections than Connector
+requirements: [
+    i-02-menuinal/125
+    i-05-malicite/25
+]
+research: 08b-02-connector
+researchCost: [
+    i-02-menuinal/1250
+    i-05-malicite/250
+]
+category: power
+laserRange: 8
+maxNodes: 20
+health: 70

@@ -2,11 +2,11 @@ type: PowerNode
 name: Connector
 description: Moves power between connectors or power generating/using objects.
 requirements: [
-    i-03-wood/25
+    i-02-menuinal/25
 ]
 research: 08b-01-igniter
 researchCost: [
-    i-03-wood/250
+    i-02-menuinal/250
 ]
 category: power
 laserRange: 4

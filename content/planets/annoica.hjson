@@ -8,9 +8,9 @@ mesh: [
     planet: annoica
     divisions: 5
     seed: 7
-    radius: 1
+    radius: 1.75
     color1: 3F207D
-    color2: 544DEB
+    color2: 80a9ff
     octaves: 3.7
     persistence: 1.1
   }
@@ -20,8 +20,8 @@ mesh: [
     planet: annoica
     divisions: 5
     seed: 94
-    radius: 1
-    color1: cbd97f
+    radius: 1.75
+    color1: 9cb664
     color2: edf3a9
     octaves: 3.7
     persistence: 0.6
@@ -32,11 +32,23 @@ mesh: [
     planet: annoica
     divisions: 6
     seed: 101
-    radius: 1
-    color1: 983700
-    color2: a85015
+    radius: 1.75
+    color1: 6b4524
+    color2: b96923
     octaves: 3.7
     persistence: 0.8
+  }
+  {
+    //silver bunch
+    type: NoiseMesh
+    planet: annoica
+    divisions: 5
+    seed: 45
+    radius: 1.75
+    color1: 474747
+    color2: bebebe
+    octaves: 3.7
+    persistence: 0.3
   }
 ]
 cloudMesh: [
@@ -53,34 +65,22 @@ cloudMesh: [
    thresh: 0.6
   }
 ]
-generator: {
-  octaves: 3
-  persistence: 0.52
-  scale: 22
-  mag: 0.721
-  thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
-  berylChance: 0
-  ferricChance: 0.26
-}
+generator: SerpuloPlanetGenerator
 campaignRuleDefaults: {
   fog: false
   showSpawns: true
+  enemyInvasion: true
+  clearSectorOnLose: false
 }
 orbitRadius: 80
-sectorSize: 1
+sectorSize: 2
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
-startSector: 0
+startSector: 33
 orbitSpacing: 1
-radius: 1.2
+radius: 1.75
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
@@ -90,7 +90,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: ffffff
+atmosphereColor: 2128e7
 iconColor: 544deb
 hasAtmosphere: true
 allowWaveSimulation: true
@@ -100,12 +100,21 @@ prebuildBase: false
 defaultCore: 01b-01-core-bunker
 parent: sun
 solarSystem: sun
-launchCandidates: []
+launchCandidates: [
+  serpulo
+]
 itemWhitelist: [
   i-01-azure
   i-02-menuinal
   i-03-wood
   i-04-sulfer
   i-05-malicite
-  i-07-thorninium
+  i-06-silver-bunch
+  i-07-chromium
+]
+liquidWhitelist: [
+  l-01-distilled-water
+  water
+  l-02-super-cooled-water
+  l-03-steam
 ]

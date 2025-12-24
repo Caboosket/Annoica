@@ -1,0 +1,29 @@
+type: CoreBlock
+name: Core: Creationary
+description: Create! Stores a lot of items and has best of the best armor.
+requirements: [
+  i-01-azure/480
+  i-02-menuinal/320
+  i-04-sulfer/160
+  i-05-malicite/80
+  i-07-chromium/45
+  i-09-vanadium/20
+]
+isFirstTier: false
+size: 5
+squareSprite: true
+alwaysUnlocked: false
+unitType: cu-03-kilnvana
+health: 5000
+itemCapacity: 9100
+unitCapModifier: 50
+category: effect
+research: 01b-02-core-mcc
+researchCost: [
+  i-01-azure/4800
+  i-02-menuinal/3200
+  i-04-sulfer/1600
+  i-05-malicite/800
+  i-07-chromium/450
+  i-09-vanadium/200
+]

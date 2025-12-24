@@ -1,0 +1,20 @@
+type: MemoryBlock
+name: DDR2
+description: Stores numbers for magicers. Stores more than DDR1.
+category: logic
+memoryCapacity: 64
+requirements: [
+    i-01-azure/12
+    i-02-menuinal/12
+    i-04-sulfer/12
+    i-05-malicite/12
+]
+research: {
+    parent: lb-06-ddr1
+    requirements: [
+        i-01-azure/120
+        i-02-menuinal/120
+        i-04-sulfer/120
+        i-05-malicite/120
+    ]
+}

@@ -1,0 +1,9 @@
+type: item
+name: Cristal Clusture
+description: A clusture of crystals. Unusable for building anything.
+color: 359c39
+lowPriority: true
+buildable: false
+hidden: false
+research: i-07-chromium
+hiddenOnPlanets: [serpulo, erekir]

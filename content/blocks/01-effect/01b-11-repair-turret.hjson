@@ -1,0 +1,16 @@
+type: RepairTurret
+name: Repair Turret
+description: Repairs damaged blocks within range, can heal more than the gun.
+research: 01b-10-repair-gun
+size: 2
+shootY: 2
+targetAir: false
+targetGround: false
+targetBlocks:true
+targetHealing: true
+playerControllable: false
+shoot: {
+    type: EmptyBulletType
+    damage: 0
+    healPercent: 25
+}

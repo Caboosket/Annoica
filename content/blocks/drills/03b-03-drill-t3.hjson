@@ -1,10 +1,11 @@
-type: drill
+type: Drill
 name: Penumatic Drill
 description: Better than better.
 requirements: [
-    i-01-azure/36
-    i-04-sulfer/20
-    i-05-malicite/10
+    i-01-azure/72
+    i-04-sulfer/40
+    i-05-malicite/20
+    i-07-chromium/10
 ]
 research: 03b-02-drill-t2
 category: production
@@ -25,7 +26,8 @@ drawRim: false
 drawSpinSprite: true
 heatColor: ff5512ff
 researchCost: [
-    i-01-azure/360
-    i-04-sulfer/200
-    i-05-malicite/100
+    i-01-azure/720
+    i-04-sulfer/400
+    i-05-malicite/200
+    i-07-chromium/100
 ]

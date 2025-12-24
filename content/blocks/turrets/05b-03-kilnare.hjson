@@ -1,6 +1,7 @@
 type: ItemTurret
 name: Kilnare
 description: Better penta, and can hit air now.
+outlineColor: 000000
 size: 2
 squareSprite: true
 research: 05b-01-quantro
@@ -130,7 +131,7 @@ ammoTypes: {
       }
     }
   }
-  i-07-thorninium: {
+  i-07-chromium: {
     //hitSound: dull-impact
     frontColor: 96f58c
     backColor: 28785c

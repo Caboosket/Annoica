@@ -1,0 +1,17 @@
+type: ItemBridge
+name: Rail Bridge
+description: Used for crossing multiple distribution lines or terrain to connect Rails.
+speed: 10
+fadeIn: false
+moveArrows: false
+arrowSpacing: 6
+range: 6
+hasPower: false
+category: distribution
+research: 02b-03-rail-router
+requirements: [
+  i-01-azure/10
+]
+researchCost: [
+  i-01-azure/100
+]

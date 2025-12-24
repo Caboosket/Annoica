@@ -1,0 +1,15 @@
+type: Liquid
+name: Steam
+description: Vaporized version of water, Pressure is highened and lowered for turbines and used in liquid turrets.
+heatCapacity: 0
+explosiveness: 0
+temperature: 1
+coolant: false
+gas: true
+color: d2d2d2
+flammability: 0
+gasColor: d2d2d2
+barColor: d2d2d2
+incinerable: false
+lightColor: ffffff
+research: l-01-distilled-water

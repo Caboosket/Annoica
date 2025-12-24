@@ -1,0 +1,29 @@
+type: LogicDisplay
+name: Huge Displayer
+discription: Displays an image or stuff from a magicer. Larger area than Large Displayer.
+details: theres no way anyones gonna use this right?
+displaySize: 272
+size: 9
+category: logic
+health: 900
+requirements: [
+    i-01-azure/1225
+    i-02-menuinal/1225
+    i-04-sulfer/1225
+    i-05-malicite/125
+    i-07-chromium/12
+    i-09-vanadium/12
+    i-10-krypton/12
+]
+research: {
+    parent: lb-01-displayer
+    requirements: [
+        i-01-azure/12250
+        i-02-menuinal/12250
+        i-04-sulfer/12250
+        i-05-malicite/125
+        i-07-chromium/120
+        i-09-vanadium/120
+        i-10-krypton/120
+    ]
+}

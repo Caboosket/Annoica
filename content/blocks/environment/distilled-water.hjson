@@ -1,0 +1,10 @@
+type: Floor
+name: Water
+speedMultiplier: 0.5
+variants: 3
+liquidDrop: l-01-distilled-water
+liquidMultiplier: 1
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true

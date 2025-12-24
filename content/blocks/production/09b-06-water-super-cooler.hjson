@@ -1,0 +1,36 @@
+type: AttributeCrafter
+attribute: ice
+name: Water Super-Cooler
+description: Super cools water just above freezing point for a better coolant.
+outputLiquids: [
+  l-02-super-cooled-water/0.5
+]
+consumes: {
+  liquids: [
+    water/1
+  ]
+}
+category: crafting
+baseEfficiency: 0.5
+minEfficiency: 0.5
+maxBoost: 100000000
+boostScale: 0.125
+size: 4
+health: 225
+buildSpeed: 120
+craftEffect: none
+research: 09b-05-water-stabilization-tower
+researchCost: [
+  i-01-azure/500
+  i-02-menuinal/300
+  i-04-sulfer/300
+  i-05-malicite/100
+]
+requirements: [
+  i-01-azure/50
+  i-02-menuinal/30
+  i-04-sulfer/30
+  i-05-malicite/10
+]
+ambientSound: none
+ambientSoundVolume: 0.08

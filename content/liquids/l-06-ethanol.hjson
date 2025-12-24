@@ -1,0 +1,15 @@
+type: Liquid
+name: Ethanol
+description: A Fuel for burning. Can be used for power or launching items.
+heatCapacity: 0
+explosiveness: 0
+temperature: 0.5
+coolant: true
+gas: false
+color: 45ae2d
+flammability: 1
+liquidColor: 45ae2d
+barColor: 45ae2d
+incinerable: false
+lightColor: 4dcc2f
+research: l-01-distilled-water

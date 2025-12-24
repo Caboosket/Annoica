@@ -1,0 +1,14 @@
+type: SwitchBlock
+name: Leaver
+description: Used with magicers for stuff. Does nothing by its self.
+category: logic
+health: 37
+requirements: [
+    i-01-azure/12
+]
+research: {
+    parent: lb-02-magicer
+    requirements: [
+        i-01-azure/120
+    ]
+}

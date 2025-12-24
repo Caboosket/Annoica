@@ -1,0 +1,8 @@
+type: item
+name: Krypton
+description: Created via Monochroming Vanadium with chromium. Used in almost the best buildings and units.
+color: 423d44
+lowPriority: false
+buildable: true
+hidden: false
+hiddenOnPlanets: [serpulo, erekir]

@@ -40,16 +40,15 @@ craftTime: 90
   }
 }*/
 category: crafting
-/*research: {
-  parent: 01b-01-core-bunker
-  objectives: [
+research: {
+  parent: vanilla
+  /*objectives: [
     {
       type: OnSector
       preset: m-03-???
     }
-  ]
-}*/
-research: 01b-01-core-bunker
+  ]*/
+}
 researchCost: [
   i-01-azure/400
   i-02-menuinal/300
@@ -67,8 +66,8 @@ drawer: {
     }
     {
         type: DrawPistons
-        sinMag: 8
-        sinScl: 12
+        sinMag: 4
+        sinScl: 2
     }
     {
       type: DrawDefault

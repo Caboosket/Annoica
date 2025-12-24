@@ -1,0 +1,15 @@
+type: Liquid
+name: Super-Cooled Water
+description: Water cooled just above freezing. Used for major cooling in turrets.
+heatCapacity: 3
+explosiveness: 0
+temperature: 0
+coolant: true
+gas: false
+color: b5dbea
+flammability: 0
+liquidColor: b5dbea
+barColor: b5dbea
+incinerable: false
+lightColor: def1f9
+research: l-01-distilled-water

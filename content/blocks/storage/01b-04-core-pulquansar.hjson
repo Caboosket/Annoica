@@ -1,0 +1,21 @@
+type: GeneratorCoreBlock
+name: Core: Pul-quan-sar
+description: A core that can generate power. Stores a medium ammount of items and has some armor.
+health: 750
+requirements: [
+    i-01-azure/150
+    i-02-menuinal/750
+    i-03-wood/250
+]
+size: 3
+powerProduction: 1
+itemCapacity: 2400
+unitCapModifier: 12
+unitType: cu-04-lona-pc
+category: effect
+research: vanilla
+researchCost: [
+    i-01-azure/1500
+    i-02-menuinal/7500
+    i-03-wood/2500
+]

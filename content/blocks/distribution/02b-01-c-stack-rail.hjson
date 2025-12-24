@@ -1,0 +1,8 @@
+type: StackConveyor
+name: Stack Rail
+description: Instead of one item, sends multiple in stacks.
+details: we be making anything a rail now aint we?
+outputRouter: true
+health: 140
+itemCapasity: 50
+speed: 5

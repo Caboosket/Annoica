@@ -1,0 +1,36 @@
+type: LaunchPad
+name: Launcher
+description: Launches items to the selected destination with landing pads.
+bottomColor: b3701e
+squareSprite: false
+category: effect
+size: 4
+health: 1225
+itemCapacity: 250
+liquidCapacity: 100
+launchTime: 480.0
+consumes: {
+  liquids: [
+    l-06-ethanol/0.2
+  ]
+  power: 0.5
+}
+requirements: [
+  i-01-azure/1225
+  i-02-menuinal/125
+  i-05-malicite/100
+]
+research: {
+  parent: 02b-06-directional-router
+  requirements: [
+  i-01-azure/12250
+  i-02-menuinal/1250
+  i-05-malicite/1000
+  ]
+  /*objectives: [
+    {
+      type: SectorComplete
+      preset: m-launchers-launch-outpost
+    }
+  ]*/
+}

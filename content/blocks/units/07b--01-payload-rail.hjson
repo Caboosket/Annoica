@@ -1,0 +1,12 @@
+type: PayloadConveyor
+name: Payload Rail
+description: Moves payloads to the end of the rail.
+category: units
+research: 02b-01-s-fast-travel-rail
+requirements: [
+  i-01-azure/18
+  i-04-sulfer/10
+]
+canOverdrive: false
+size: 5
+payloadLimit: 5
