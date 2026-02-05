@@ -21,5 +21,5 @@
 ![Issues][Badge Issues]<br><br>
 another planet mod, ment to be more uniqe then the rest.
 
-and yet new horizons are still yet to come.
+new horizons have came, and its really good.
 # [ RECORDING END ] <br>
