@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Malicite Mixxer
-description: Mixxes together menuinal and wood to make malicite.
+description: Mixxes together Menuinal and Wood to make Malachite.
 size: 2
 craftEffect: smeltsmoke
 outputItems: [

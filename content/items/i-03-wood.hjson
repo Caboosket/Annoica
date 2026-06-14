@@ -1,6 +1,6 @@
 type: item
 name: Wood
-description: Used for power generation and 
+description: Used for power generation.
 research: i-01-azure
 color: a85015
 flammability: 1

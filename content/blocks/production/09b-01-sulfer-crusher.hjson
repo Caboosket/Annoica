@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Sulfer Crusher
-description: Crushes azure and uses menuinal to colorize it into sulfer.
+description: Crushes Azure and uses Menuinal to colorize it into sulfer.
 size: 2
 craftEffect: smeltsmoke
 outputItems: [

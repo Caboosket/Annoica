@@ -1,7 +1,7 @@
 type: AttributeCrafter
 attribute: ice
 name: Water Super-Cooler
-description: Super cools water just above freezing point for a better coolant.
+description: Super cools Water just above freezing point for a better coolant.
 outputLiquids: [
   l-02-super-cooled-water/0.5
 ]
