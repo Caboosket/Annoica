@@ -1,11 +1,12 @@
 type: ItemBridge
 name: Rail Bridge
 description: Used for crossing multiple distribution lines or terrain to connect Rails.
-speed: 10
+transportTime: 10
 fadeIn: false
 moveArrows: false
 arrowSpacing: 6
 range: 6
+health: 100
 hasPower: false
 category: distribution
 research: 02b-03-rail-router

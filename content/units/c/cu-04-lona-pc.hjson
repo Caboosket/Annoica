@@ -34,7 +34,6 @@ abilities: [
 weapons: [
     {
     name: lonacor-weapon-l
-    outlineColor: 00000000
     x: 3
     y: 3
     reload: 10
@@ -78,7 +77,6 @@ weapons: [
   }
   {
     name: lonacor-weapon-d
-    outlineColor: 00000000
     x: 3
     y: -3
     reload: 10

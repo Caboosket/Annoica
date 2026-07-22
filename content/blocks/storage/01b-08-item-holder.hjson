@@ -6,7 +6,7 @@ requirements: [
   i-02-menuinal/30
   i-05-malicite/70
 ]
-Health: 800
+health: 800
 itemCapacity: 200
 size: 2
 research: 01b-07-core-unloader

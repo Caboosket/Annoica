@@ -1,0 +1,12 @@
+type: PayloadConveyor
+name: Tentra Conveyor
+description: Although its not a rail, it cant really be one. Sends payload into builders or can be unit storage.
+category: units
+research: 02b-01-b-fast-travel-rail
+requirements: [
+  i-01-azure/18
+  i-04-sulfer/10
+]
+canOverdrive: false
+size: 5
+payloadLimit: 5

@@ -8,7 +8,6 @@ requirements: [
 category: distribution
 invert: true
 health: 50
-speed: 10
 researchCost: [
     i-01-azure/150
 ]

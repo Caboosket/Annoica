@@ -1,7 +1,6 @@
 type: Floor
 name: Deep Water
 speedMultiplier: 0.5
-variants: 3
 drownTime: 660
 liquidDrop: l-01-distilled-water
 liquidMultiplier: 2

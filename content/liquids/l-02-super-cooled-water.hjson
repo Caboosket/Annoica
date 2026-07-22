@@ -8,7 +8,6 @@ coolant: true
 gas: false
 color: b5dbea
 flammability: 0
-liquidColor: b5dbea
 barColor: b5dbea
 incinerable: false
 lightColor: def1f9

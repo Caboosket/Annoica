@@ -1,4 +1,3 @@
 type: Battery
 name: Power Storer
 description: Stores power. Inputs when positive power and outputs when negative power.
-consumePowerBuffered: 300

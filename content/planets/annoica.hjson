@@ -93,7 +93,6 @@ visible: true
 atmosphereColor: 2128e7
 iconColor: 544deb
 hasAtmosphere: true
-allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
@@ -102,19 +101,4 @@ parent: sun
 solarSystem: sun
 launchCandidates: [
   serpulo
-]
-itemWhitelist: [
-  i-01-azure
-  i-02-menuinal
-  i-03-wood
-  i-04-sulfer
-  i-05-malicite
-  i-06-silver-bunch
-  i-07-chromium
-]
-liquidWhitelist: [
-  l-01-distilled-water
-  water
-  l-02-super-cooled-water
-  l-03-steam
 ]

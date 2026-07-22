@@ -7,9 +7,9 @@ requirements: [
 ]
 category: distribution
 junctionReplacement: 02b-02-rail-junction
+bridgeReplacement: 02b-11-rail-bridge
 health: 50
 speed: 10
 researchCost: [
     i-01-azure/10
 ]
-tint: ffffff

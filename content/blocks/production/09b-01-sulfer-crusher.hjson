@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Sulfer Crusher
-description: Crushes Azure and uses Menuinal to colorize it into sulfer.
+description: Crushes azure and uses menuinal to colorize it into sulfer.
 size: 2
 craftEffect: smeltsmoke
 outputItems: [
@@ -42,12 +42,12 @@ craftTime: 90
 category: crafting
 research: {
   parent: vanilla
-  /*objectives: [
+  objectives: [
     {
       type: OnSector
-      preset: m-03-???
+      preset: m-03-hovia
     }
-  ]*/
+  ]
 }
 researchCost: [
   i-01-azure/400

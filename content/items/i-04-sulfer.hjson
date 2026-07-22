@@ -1,11 +1,9 @@
-type: item
 name: Sulfer
 description: Made by crushing azure and coloring it(???). Used for better refinery of resorces and buildings.
-color: eab678
+color: 22bce2
 research: i-01-azure
 flamability: 2.5
 charge: 1
 lowPriority: true
 buildable: true
 hidden: false
-hiddenOnPlanets: [serpulo, erekir]

@@ -1,5 +1,5 @@
 type: Liquid
-name: Distilled Water
+name: Contaminated Water
 description: Water mixxed with a lot of enviormental chemicals, Used in crafting and stablized into water.
 heatCapacity: 0.125
 explosiveness: 0
@@ -8,7 +8,6 @@ coolant: true
 gas: false
 color: a247cd
 flammability: 0
-liquidColor: a247cd
 barColor: a247cd
 incinerable: false
 lightColor: c471eb

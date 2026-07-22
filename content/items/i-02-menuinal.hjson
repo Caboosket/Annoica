@@ -1,5 +1,4 @@
-type: item
-name: Danburite
+name: Menuinal
 description: Secondary resource used for building basic buildings and refinery.
 research: i-01-azure
 color: cbd97f
@@ -7,4 +6,3 @@ flammability: 0.5
 lowPriority: true
 buildable: true
 hardness: 2
-hiddenOnPlanets: [serpulo, erekir]

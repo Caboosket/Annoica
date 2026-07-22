@@ -1,4 +1,3 @@
-type: item
 name: Malachite
 description: Made by mixxing wood and menuinal. Used for better than better refinery and buidings.
 color: 54d67d
@@ -6,4 +5,3 @@ research: i-04-sulfer
 lowPriority: true
 buildable: true
 hidden: false
-hiddenOnPlanets: [serpulo, erekir]

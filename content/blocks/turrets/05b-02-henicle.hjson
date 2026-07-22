@@ -18,7 +18,6 @@ placeOverlapMargin: 56
 rotateSpeed: 5
 fogRadiusMultiplier: 1
 disableOverlapCheck: true
-coolEfect: fuelburn
 coolantMultiplier: 5
 coolant: {
     type: ConsumeCoolant
@@ -75,7 +74,7 @@ alwaysShooting: false
 unitSort: closest
 heatColor: ab3400ff
 ammoUseEffect: mine
-shootSound: laserblast
+shootSound: shootScatter
 chargeSound: lasercharge
 loopSound: none
 loopSoundVolume: 0.5

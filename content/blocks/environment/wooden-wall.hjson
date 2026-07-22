@@ -3,5 +3,3 @@ type: StaticWall
 attributes: {
   wooden: 1
 }
-variants: 3
-color: b96923

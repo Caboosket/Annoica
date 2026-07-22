@@ -6,7 +6,6 @@ requirements: [
   i-04-sulfer/2
   i-05-malicite/3
 ]
-speed: 5
 health: 100
 research: 04b-01-pipe-t1
 leaks: false

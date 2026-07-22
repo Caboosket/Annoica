@@ -1,0 +1,26 @@
+type: Drill
+name: Drill
+description: Quite small, although it cannot mine very much. Equipment at this size is very bad.
+requirements: [
+    i-01-azure/10
+    i-04-sulfer/25
+]
+size: 1
+research: 03b-02-drill-t2
+category: production
+drillTime: 100
+hardnessDrillMultiplier: 100
+tier: 1
+liquidBoostIntensity: 0.5
+warmupSpeed: 10
+drawMineItem: true
+rotateSpeed: 2
+updateEffect: mine
+updateEffectChance: 0.04
+drawRim: false
+drawSpinSprite: true
+heatColor: ff5512ff
+researchCost: [
+    i-01-azure/100
+    i-04-sulfer/250
+]

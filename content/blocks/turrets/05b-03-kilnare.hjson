@@ -56,7 +56,7 @@ shoot: {
 }
 shootEffect: shootSmall
 smokeEffect: shootSmokeSquareSparse
-shootSound: artillery
+shootSound: shootSalvo
 ammoTypes: {
   i-04-sulfer: {
     //hitSound: dull-impact

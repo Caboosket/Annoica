@@ -1,7 +1,6 @@
 type: LandingPad
 name: Item Pod Reciver
 description: Recives item pods from Launchers.
-consumeLiquidAmmount: 0
 consumeLiquid: l-01-distilled-water
 bottomColor: b3701e
 squareSprite: false
@@ -10,7 +9,6 @@ size: 5
 health: 1225
 itemCapacity: 500
 liquidCapacity: 100
-launchTime: 480.0
 consumes: {
   liquids: [
     water/0.2

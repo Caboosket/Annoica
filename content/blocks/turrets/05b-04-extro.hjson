@@ -34,15 +34,12 @@ coolant: {
 }
 ammoTypes: {
         l-03-steam: {
-        frontColor: ffffff
-        backColor: 939393
         trailColor: 939393
         pierceArmor: true
         hitEffect: mine
         type: ContinuousFlameBulletType
         speed: 0
         width: 4
-        height: 8
         lifetime: 0
         pierce: true
         damage: 10

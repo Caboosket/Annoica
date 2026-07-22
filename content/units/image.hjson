@@ -1,7 +1,6 @@
 type: tank
 name: image.png
 description: A car-tank(carnk?). Intended for tanks and not to be a standalone unit.
-controller: TankAI
 outlineColor: 000000
 omniMovement: false
 faceTarget: true

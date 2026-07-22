@@ -93,7 +93,6 @@ visible: true
 atmosphereColor: edf3a9
 iconColor: edf3a9
 hasAtmosphere: true
-allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
@@ -101,5 +100,3 @@ defaultCore: core-shard
 parent: annoica
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: []
-liquidWhitelist: []

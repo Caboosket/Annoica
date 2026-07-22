@@ -1,6 +1,5 @@
 type: floor
 name: Annoica Ice
-varients: 1
 attributes: {
     ice: 1
 }

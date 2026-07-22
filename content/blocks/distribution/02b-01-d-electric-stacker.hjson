@@ -1,0 +1,18 @@
+type: StackConveyor
+name: Electric Stacker
+description: Instead of one item, sends multiple in stacks. Speed up via power.
+research: 02b-01-c-stacker
+researchCost: [
+    i-09-vanadium/10
+    i-10-krypton/10
+]
+requirements: [
+    i-09-vanadium/1
+    i-10-krypton/1
+]
+outputRouter: true
+hasPower: true
+consumesPower: true
+conductivePower: true
+health: 140
+baseEfficiency: 100

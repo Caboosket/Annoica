@@ -1,6 +1,6 @@
 type: LogicDisplay
 name: Large Displayer
-discription: Displays an image or stuff from a magicer. Larger area than Displayer.
+description: Displays an image or stuff from a magicer. Larger area than Displayer.
 displaySize: 176
 size: 6
 category: logic

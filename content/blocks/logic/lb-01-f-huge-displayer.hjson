@@ -1,6 +1,6 @@
 type: LogicDisplay
 name: Huge Displayer
-discription: Displays an image or stuff from a magicer. Larger area than Large Displayer.
+description: Displays an image or stuff from a magicer. Larger area than Large Displayer.
 details: theres no way anyones gonna use this right?
 displaySize: 272
 size: 9

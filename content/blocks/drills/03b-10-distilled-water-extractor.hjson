@@ -52,7 +52,6 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      suffix: -liquid
       drawLiquid: l-01-distilled-water
     }
     {

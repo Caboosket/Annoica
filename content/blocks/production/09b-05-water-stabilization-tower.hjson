@@ -1,8 +1,7 @@
 type: GenericCrafter
-name: Water Stabilization Tower
-description: Stabilizes Distilled Water into Water.
+name: Water Purification Tower
+description: Purifys Contaiminated Water into Water.
 health: 1225
-buildSpeed: 120
 size: 8
 craftEffect: none
 outputLiquids: [

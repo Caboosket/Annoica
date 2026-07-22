@@ -1,8 +1,6 @@
-type: item
 name: Magnesium
-description: Assembled with particles of it, wich are extracted from merging Krypton and Sulfer.
+description: Extracted from its unuseable counter part. Used in best of the best buildings and t5 units.
 color: f15454
 lowPriority: true
 buildable: true
 hidden: false
-hiddenOnPlanets: [serpulo, erekir]

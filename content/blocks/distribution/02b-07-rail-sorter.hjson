@@ -7,7 +7,6 @@ requirements: [
 ]
 category: distribution
 health: 50
-speed: 10
 researchCost: [
     i-01-azure/150
 ]

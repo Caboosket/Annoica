@@ -19,16 +19,12 @@ shootY: 15
 shootSound: liquidshoot
 ammoTypes: {
     l-01-distilled-water: {
-        frontColor: 5561d2
-        backColor: 131a55
         trailColor: 131a55
         pierceArmor: true
         hitEffect: mine
         type: LiquidBulletType
         liquid: l-01-distilled-water
         speed: 5
-        width: 6
-        height: 6
         lifetime: 30
         pierce: true
         damage: 25
@@ -36,16 +32,13 @@ ammoTypes: {
         weaveMag: 5
     }
     water: {
-        frontColor: 7090ea
-        backColor: 363f9a
         trailColor: 363f9a
         pierceArmor: true
         hitEffect: mine
         type: LiquidBulletType
         liquid: water
         speed: 5
-        width: 6
-        height: 6
+
         lifetime: 30
         pierce: true
         damage: 10
@@ -53,16 +46,12 @@ ammoTypes: {
         weaveMag: 0
     }
     l-02-super-cooled-water: {
-        frontColor: def1f9
-        backColor: 3f8099
         trailColor: 3f8099
         pierceArmor: true
         hitEffect: mine
         type: LiquidBulletType
         liquid: l-02-super-cooled-water
         speed: 5
-        width: 6
-        height: 6
         lifetime: 30
         pierce: true
         damage: 10

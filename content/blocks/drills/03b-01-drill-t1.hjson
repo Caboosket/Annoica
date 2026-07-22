@@ -4,6 +4,7 @@ description: The Base Drill, gonna need it alot eh?
 requirements: [
     i-01-azure/12
 ]
+size: 2
 research: vanilla
 category: production
 drillTime: 50
@@ -12,9 +13,6 @@ tier: 2
 liquidBoostIntensity: 1.5
 warmupSpeed: 5
 drawMineItem: true
-drillEfect: mine
-drillEfectRnd: -1
-drillEfectChance: 0.02
 rotateSpeed: 2
 updateEffect: pulverizeSmall
 updateEffectChance: 0.02

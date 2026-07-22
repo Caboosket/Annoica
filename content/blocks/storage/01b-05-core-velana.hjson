@@ -1,0 +1,21 @@
+type: GeneratorCoreBlock
+name: Core: Velana
+description: A core that can generate quite a bit of power. Stores a large ammount of items and has quite a bit of armor.
+health: 1500
+requirements: [
+    i-01-azure/300
+    i-02-menuinal/1500
+    i-03-wood/500
+]
+size: 4
+powerProduction: 3
+itemCapacity: 4800
+unitCapModifier: 24
+unitType: cu-04-lona-pc
+category: effect
+research: 01b-04-core-pulquansar
+researchCost: [
+    i-01-azure/3000
+    i-02-menuinal/15000
+    i-03-wood/5000
+]

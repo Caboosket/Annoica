@@ -2,7 +2,6 @@ type: GenericCrafter
 name: Steam Pressure Highener
 description: Intakes pressure to make steam HPS.
 health: 122
-buildSpeed: 120
 size: 3
 craftEffect: none
 outputLiquids: [

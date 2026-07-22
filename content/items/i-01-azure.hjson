@@ -1,5 +1,4 @@
-type: item
-name: Auqamarine
+name: Rubidium
 description: Primary resource used for building basic buildings and refinery.
 color: 544deb
 research: vanilla
@@ -7,4 +6,3 @@ flammability: 1.5
 lowPriority: true
 buildable: true
 hardness: 2
-hiddenOnPlanets: [serpulo, erekir]

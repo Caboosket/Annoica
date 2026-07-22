@@ -1,0 +1,17 @@
+type: StackConveyor
+name: Stacker
+description: Instead of one item, sends multiple in stacks.
+research: 02b-01-b-fast-travel-rail
+researchCost: [
+    i-04-sulfer/10
+    i-05-malicite/10
+    i-07-chromium/10
+]
+requirements: [
+    i-04-sulfer/1
+    i-05-malicite/1
+    i-07-chromium/1
+]
+outputRouter: true
+health: 140
+baseEfficiency: 100

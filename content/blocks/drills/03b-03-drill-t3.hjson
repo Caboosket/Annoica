@@ -16,9 +16,6 @@ tier: 4
 liquidBoostIntensity: 1.5
 warmupSpeed: 1
 drawMineItem: true
-drillEfect: mine
-drillEfectRnd: -1
-drillEfectChance: 0.02
 rotateSpeed: 2
 updateEffect: pulverizeSmall
 updateEffectChance: 0.02

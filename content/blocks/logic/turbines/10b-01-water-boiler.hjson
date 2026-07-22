@@ -2,7 +2,6 @@ type: GenericCrafter
 name: Water Boiler
 description: Vaporizes Water into Steam.
 health: 122
-buildSpeed: 120
 size: 3
 craftEffect: none
 outputLiquids: [

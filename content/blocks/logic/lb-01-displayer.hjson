@@ -1,6 +1,6 @@
 type: LogicDisplay
 name: Displayer
-discription: Displays an image or stuff from a magicer.
+description: Displays an image or stuff from a magicer.
 displaySize: 80
 size: 3
 category: logic

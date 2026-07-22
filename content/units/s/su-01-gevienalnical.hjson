@@ -24,11 +24,6 @@ name: Gevinealnical
 description: Such a mouthful, ey?
 details: Og sprite from aerodynamic attorney, remade into this.
 research: 07b-00-support-builder
-researchCost: [
-  i-01-azure/410
-  i-02-menuinal/120
-  i-05-malicite/60
-]
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
